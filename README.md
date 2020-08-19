@@ -1,2 +1,2 @@
-# CustomWordPressTheme
-This is my custom WordPress theme for my CV.
+# CustomWordPressThemes
+Here are all my custom WordPress themes.
