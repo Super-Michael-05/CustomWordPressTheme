@@ -1,14 +1,7 @@
 
 <footer>
     <div class="container">
-        <?php
-        wp_nav_menu (
-            array(
-                'theme-location' => 'footer-menu',
-                'menu_class' => 'footer-bar',
-            )
-        );
-        ?>
+        <div class="footerText">Sivun tekijä: Mikael Kolehmainen 25.08.2020</div>
     </div>
 </footer>
 

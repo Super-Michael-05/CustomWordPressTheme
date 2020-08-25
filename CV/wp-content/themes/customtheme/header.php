@@ -2,7 +2,7 @@
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Mikael Kolehmainen</title>
 
 
     <?php wp_head();?>
