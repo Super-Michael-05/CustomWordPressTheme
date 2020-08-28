@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+.page-wrap-id-25 {
+    padding: 2rem 0;
+    background: #585c68;
+    color: #555555;
+}
+
+.page-id-25 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.page-id-25 .resume .resume_right img {
+  width: 40px;
+  height: 27px;
+  border-style: solid;
+  border-color: #0bb5f4;
+}
+
+.page-id-25 {
+  background: #585c68;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.page-id-25 .bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.page-id-25 .semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.page-id-25 .resume {
+  width: 860px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+.page-id-25 .resume .resume_left {
+  width: 360px;
+  background: #0bb5f4;
+}
+
+.page-id-25 .resume .resume_left .resume_profile {
+  width: 100%;
+  height: 360px;
+}
+
+.page-id-25 .resume .resume_left .resume_profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.page-id-25 .resume .resume_left .resume_content {
+  padding: 0 25px;
+}
+
+.page-id-25 .resume .title {
+  margin-bottom: 20px;
+}
+
+.page-id-25 .resume .resume_left .bold {
+  color: #fff;
+}
+
+.page-id-25 .resume .resume_left .regular {
+  color: #b1eaff;
+}
+
+.page-id-25 .resume .resume_item {
+  padding: 25px 0;
+  border-bottom: 2px solid #b1eaff;
+}
+
+.page-id-25 .resume .resume_left .resume_item:last-child,
+.page-id-25 .resume .resume_right .resume_item:last-child {
+  border-bottom: 0px;
+}
+
+.page-id-25 .resume .resume_left ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.page-id-25 .resume .resume_left ul li:last-child {
+  margin-bottom: 0;
+}
+
+.page-id-25 .resume .resume_left ul li .icon {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  color: #0bb5f4;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+
+.page-id-25 .resume .icon i,
+.page-id-25 .resume .resume_right .resume_hobby ul li i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page-id-25 .resume .resume_left ul li .data {
+  color: #b1eaff;
+}
+
+.page-id-25 .resume .resume_left .resume_skills ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #b1eaff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-id-25 .resume .resume_left .resume_skills ul li .skill_name {
+  width: 25%;
+}
+
+.page-id-25 .resume .resume_left .resume_skills ul li .skill_progress {
+  width: 50%;
+  margin: 0 6px;
+  height: 5px;
+  background: #009fd9;
+  position: relative;
+}
+
+.page-id-25 .resume .resume_left .resume_skills ul li .skill_per {
+  width: 15%;
+}
+
+.page-id-25 .resume .resume_left .resume_skills ul li .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+}
+
+.page-id-25 .resume .resume_left .resume_social .semi-bold {
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+.page-id-25 .resume .resume_right {
+  width: 540px;
+  background: #fff;
+  padding: 25px;
+}
+
+.page-id-25 .resume .resume_right .bold {
+  color: #0bb5f4;
+}
+
+.page-id-25 .resume .resume_right .resume_work ul,
+.page-id-25 .resume .resume_right .resume_education ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.page-id-25 .resume .resume_right ul li {
+  position: relative;
+}
+
+.page-id-25 .resume .resume_right ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.page-id-25 .resume .resume_right ul li .info {
+  margin-bottom: 20px;
+}
+
+.page-id-25 .resume .resume_right ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.page-id-25 .resume .resume_right .resume_hobby ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-id-25 .resume .resume_right .resume_hobby ul li {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #0bb5f4;
+  border-radius: 50%;
+  position: relative;
+  color: #0bb5f4;
+}
+
+.page-id-25 .resume .resume_right .resume_hobby ul li i {
+  font-size: 30px;
+}
+
+.page-id-25 .resume .resume_right .resume_hobby ul li:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: -52px;
+  width: 50px;
+  height: 2px;
+  background: #0bb5f4;
+}
+
+.page-id-25 .resume .resume_right .resume_hobby ul li:last-child:before {
+  display: none;
+}
