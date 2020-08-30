@@ -168,7 +168,8 @@
 }
 
 .page-id-25 .resume .resume_right .resume_work ul,
-.page-id-25 .resume .resume_right .resume_education ul {
+.page-id-25 .resume .resume_right .resume_education ul,
+.page-id-25 .resume .resume_right .resume_course ul {
   padding-left: 40px;
   overflow: hidden;
 }

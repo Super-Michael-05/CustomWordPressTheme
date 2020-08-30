@@ -311,6 +311,22 @@ Template Name: Ansioluettelo
                             </li>
                         </ul>
                     </div>
+                    <!-- ADD TO JAVASCRIPT TRANSLATION -->
+                    <div class="resume_item resume_course">
+                        <div class="title">
+                            <p class="bold" id="course">Kurssit</p>
+                        </div>
+                        <ul id="line_3">
+                            <li>
+                                <div class="date" id="date_6">11.12.2018 - 12.12.2018</div> 
+                                <div class="info">
+                                    <p class="semi-bold" id="course_1">aXion - kurssi</p> 
+                                    <p id="courseText">Kurssi  sisältää mm. harjoituksia jotka parantavat yhteistyötä ryhmässä ja kyky tehdä päätöksiä.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- // ADD TO JAVASCRIPT TRANSLATION \\ -->
                     <div class="resume_item resume_hobby">
                         <div class="title">
                             <p class="bold" id="hobbies">Harrastukset</p>
