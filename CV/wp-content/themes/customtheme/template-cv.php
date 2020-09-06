@@ -9,6 +9,7 @@ Template Name: Ansioluettelo
 
 <section class="page-wrap-id-25">
     <div class="container">
+        <h1><?php the_title();?></h1>
         <div class="page-id-25">
             <div class="resume">
                 <div class="resume_left">

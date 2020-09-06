@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<header>
+<header id="myHeader">
 
     <div class="container">
         <?php

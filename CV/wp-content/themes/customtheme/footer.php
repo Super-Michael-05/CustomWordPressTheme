@@ -1,7 +1,7 @@
 
 <footer>
     <div class="container">
-        <div class="footerText">Sivun tekijä: Mikael Kolehmainen 05.09.2020</div>
+        <div class="footerText">Sivun tekijä: Mikael Kolehmainen 06.09.2020</div>
     </div>
 </footer>
 
