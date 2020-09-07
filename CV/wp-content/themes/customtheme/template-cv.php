@@ -14,7 +14,7 @@ Template Name: Ansioluettelo
             <div class="resume">
                 <div class="resume_left">
                     <div class="resume_profile">
-                        <img src="Images/Profile.jpg" alt="profile_pic">
+                        <img src="http://cv.test/wp-content/uploads/2020/09/Profile.jpg" alt="profile_pic">
                     </div>
                     <div class="resume_content">
                         <div class="resume_item resume_info">
@@ -252,9 +252,9 @@ Template Name: Ansioluettelo
                     </div>
                 </div>
                 <div class="resume_right">
-                    <a href="#fin" data-reload><img src="Images/FIN.png"></a>
-                    <a href="#sve" data-reload><img src="Images/SVE.svg"></a>
-                    <a href="#eng" data-reload><img src="Images/ENG.jpg"></a>
+                    <a href="#fin" data-reload><img src="http://cv.test/wp-content/uploads/2020/09/FIN.png"></a>
+                    <a href="#sve" data-reload><img src="http://cv.test/wp-content/uploads/2020/09/SVE.png"></a>
+                    <a href="#eng" data-reload><img src="http://cv.test/wp-content/uploads/2020/09/ENG.jpg"></a>
                     <div class="resume_item resume_about">
                         <div class="title">
                             <p class="bold" id="about">Minusta</p>
