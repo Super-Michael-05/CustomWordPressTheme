@@ -1,5 +1,5 @@
 header {
-    background: rgb(31, 31, 31);
+    background: #3282b8;
     width: 100%;
     height: 100px;
     z-index: 998;
@@ -86,7 +86,7 @@ header .top-bar .menu-item-has-children:hover .sub-menu{
 }
 
 footer {
-    background: rgb(31, 31, 31);
+    background: #3282b8;
     width: 100%;
     height: 20px;
 }

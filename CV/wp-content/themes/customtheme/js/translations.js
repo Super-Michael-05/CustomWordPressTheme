@@ -1,5 +1,3 @@
-alert('HELLO!');
-
 var dataReload = document.querySelectorAll("[data-reload]");
 
 var date = "27.10.2020";
