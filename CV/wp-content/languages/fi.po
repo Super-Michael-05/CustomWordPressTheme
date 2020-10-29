@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.5.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-28 09:29:18+0000\n"
+"PO-Revision-Date: 2020-10-26 08:01:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Language: fi\n"
 "Project-Id-Version: WordPress - 5.5.x - Development\n"
 
-#: wp-includes/script-loader.php:1441
+#: wp-includes/script-loader.php:1442
 msgctxt "Google Font Name and Variants"
 msgid "Noto Serif:400,400i,700,700i"
 msgstr "Noto Serif:400,400i,700,700i"
@@ -34,13 +34,19 @@ msgstr "ei käytössä"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/script-loader.php:1619 wp-includes/formatting.php:3884
+#: wp-includes/script-loader.php:1620 wp-includes/formatting.php:3884
 #: wp-includes/js/dist/editor.js:13029
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
 
-#: wp-includes/script-loader.php:1351
+#: wp-login.php:122 wp-includes/admin-bar.php:165
+#: wp-includes/widgets/class-wp-widget-meta.php:90 wp-admin/upgrade.php:68
+#: wp-admin/admin-footer.php:38 wp-admin/maint/repair.php:24
+msgid "https://wordpress.org/"
+msgstr "https://fi.wordpress.org/"
+
+#: wp-includes/script-loader.php:1352
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "käytössä"
@@ -86,6 +92,14 @@ msgstr " "
 #: wp-includes/class-wp-locale.php:208
 msgid "number_format_decimal_point"
 msgstr ","
+
+#: wp-includes/category-template.php:161
+#: wp-includes/js/dist/block-editor.js:25066
+#: wp-includes/js/dist/block-editor.js:25071
+#: wp-includes/js/dist/block-editor.js:25337
+#: wp-includes/js/dist/edit-post.js:5056 wp-admin/includes/upgrade.php:158
+msgid "Uncategorized"
+msgstr "Yleinen"
 
 #. translators: %s: WP_ENVIRONMENT_TYPES
 #: wp-includes/load.php:164
@@ -834,8 +848,8 @@ msgstr "Lisäosaa ei löytynyt."
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:166
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:410
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:480
-#: wp-admin/includes/ajax-actions.php:4614
-#: wp-admin/includes/ajax-actions.php:4666 wp-admin/plugins.php:13
+#: wp-admin/includes/ajax-actions.php:4615
+#: wp-admin/includes/ajax-actions.php:4667 wp-admin/plugins.php:13
 msgid "Sorry, you are not allowed to manage plugins for this site."
 msgstr "Sinulla ei ole oikeutta hallinnoida lisäosia tällä sivustolla."
 
@@ -861,7 +875,7 @@ msgid "Whether the plugin can only be activated network-wide."
 msgstr "Voidaanko lisäosaa verkostoaktivoida."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:243
-#: wp-admin/includes/ajax-actions.php:4319 wp-admin/update.php:106
+#: wp-admin/includes/ajax-actions.php:4320 wp-admin/update.php:106
 #: wp-admin/update.php:149 wp-admin/update.php:181
 #: wp-admin/plugin-install.php:19
 msgid "Sorry, you are not allowed to install plugins on this site."
@@ -873,7 +887,7 @@ msgid "Sorry, you are not allowed to deactivate this plugin."
 msgstr "Sinulla ei ole oikeutta poistaa tätä lisäosaa käytöstä."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:488
-#: wp-admin/includes/ajax-actions.php:4538 wp-admin/plugins.php:268
+#: wp-admin/includes/ajax-actions.php:4539 wp-admin/plugins.php:268
 msgid "Sorry, you are not allowed to delete plugins for this site."
 msgstr "Sinulla ei ole oikeutta poistaa lisäosia tältä sivustolta."
 
@@ -906,12 +920,12 @@ msgid "Unable to determine what plugin was installed."
 msgstr "Asennettua lisäosaa ei pystytty määrittämään."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:336
-#: wp-admin/includes/ajax-actions.php:4072
-#: wp-admin/includes/ajax-actions.php:4202
-#: wp-admin/includes/ajax-actions.php:4266
-#: wp-admin/includes/ajax-actions.php:4366
-#: wp-admin/includes/ajax-actions.php:4493
-#: wp-admin/includes/ajax-actions.php:4562
+#: wp-admin/includes/ajax-actions.php:4073
+#: wp-admin/includes/ajax-actions.php:4203
+#: wp-admin/includes/ajax-actions.php:4267
+#: wp-admin/includes/ajax-actions.php:4367
+#: wp-admin/includes/ajax-actions.php:4494
+#: wp-admin/includes/ajax-actions.php:4563
 msgid "Unable to connect to the filesystem. Please confirm your credentials."
 msgstr "Tiedostojärjestelmään ei saatu yhteyttä. Varmista tunnuksesi."
 
@@ -1356,7 +1370,7 @@ msgstr "Artikkelin tilaa %1$s ei ole rekisteröity, joten ei välttämättä ole
 #. translators: %s: Comment link.
 #: wp-includes/comment-template.php:981
 #: wp-admin/includes/class-wp-comments-list-table.php:871
-#: wp-admin/comment.php:200
+#: wp-admin/comment.php:204
 msgid "In reply to %s."
 msgstr "Vastauksena kommenttiin %s."
 
@@ -2045,7 +2059,7 @@ msgstr "[%s] Kirjautumistiedot"
 #: wp-admin/includes/meta-boxes.php:441 wp-admin/includes/media.php:1710
 #: wp-admin/includes/class-wp-media-list-table.php:177
 #: wp-admin/includes/class-wp-comments-list-table.php:374
-#: wp-admin/includes/class-wp-posts-list-table.php:420 wp-admin/comment.php:132
+#: wp-admin/includes/class-wp-posts-list-table.php:420 wp-admin/comment.php:136
 #: wp-admin/edit-form-comment.php:205
 msgid "Move to Trash"
 msgstr "Siirrä roskakoriin"
@@ -2071,7 +2085,7 @@ msgstr "Tuki"
 #: wp-admin/includes/plugin-install.php:196
 #: wp-admin/includes/plugin-install.php:211
 #: wp-admin/includes/class-wp-automatic-updater.php:788
-#: wp-admin/includes/class-wp-automatic-updater.php:1157
+#: wp-admin/includes/class-wp-automatic-updater.php:1161
 #: wp-admin/theme-install.php:63
 msgid "https://wordpress.org/support/forums/"
 msgstr "https://fi.wordpress.org/support/forums/"
@@ -2236,8 +2250,8 @@ msgstr "Varmistusavain puuttuu."
 msgid "Recovery Mode Initialized. Please log in to continue."
 msgstr "Palautustila käynnistetty. Ole hyvä ja kirjaudu sisään jatkaaksesi."
 
-#: wp-login.php:1174 wp-admin/includes/ajax-actions.php:4729
-#: wp-admin/includes/ajax-actions.php:4919
+#: wp-login.php:1174 wp-admin/includes/ajax-actions.php:4730
+#: wp-admin/includes/ajax-actions.php:4920
 msgid "Missing request ID."
 msgstr "Kyselyn tunniste puuttuu."
 
@@ -2556,16 +2570,16 @@ msgstr "Salli kommentointi"
 msgid "Order"
 msgstr "Järjestys"
 
+#: wp-includes/js/dist/components.js:40069
+#: wp-admin/includes/edit-tag-messages.php:14
+msgid "Item added."
+msgstr "Kohde lisätty."
+
 #: wp-includes/js/dist/block-editor.js:17671
 #: wp-admin/includes/class-theme-installer-skin.php:248
 #: wp-admin/includes/class-plugin-installer-skin.php:224
 msgid "Current"
 msgstr "Nykyinen"
-
-#: wp-includes/js/dist/components.js:40069
-#: wp-admin/includes/edit-tag-messages.php:14
-msgid "Item added."
-msgstr "Kohde lisätty."
 
 #: wp-includes/post.php:264
 msgctxt "admin menu"
@@ -2668,7 +2682,7 @@ msgstr "Lohko päivitetty."
 #: wp-admin/includes/class-wp-site-health.php:1441
 #: wp-admin/includes/class-wp-site-health.php:1510
 #: wp-admin/includes/dashboard.php:1233 wp-admin/includes/dashboard.php:1245
-#: wp-admin/includes/dashboard.php:1258 wp-admin/includes/dashboard.php:1756
+#: wp-admin/includes/dashboard.php:1258 wp-admin/includes/dashboard.php:1758
 msgid "(opens in a new tab)"
 msgstr "(avaa uuden välilehden)"
 
@@ -3404,8 +3418,8 @@ msgid "%s has taken over and is currently customizing."
 msgstr "%s on ottanut mukauttimen hallintaan ja mukauttaa sivustoa tällä hetkellä."
 
 #: wp-includes/class-wp-customize-manager.php:4293
-#: wp-admin/includes/post.php:1690 wp-admin/comment.php:74
-#: wp-admin/comment.php:272 wp-admin/theme-editor.php:376
+#: wp-admin/includes/post.php:1690 wp-admin/comment.php:78
+#: wp-admin/comment.php:276 wp-admin/theme-editor.php:376
 #: wp-admin/plugin-editor.php:330
 msgid "Go back"
 msgstr "Mene takaisin"
@@ -4414,20 +4428,20 @@ msgstr "Lisää ääni"
 msgid "(no author)"
 msgstr "(ei tekijää)"
 
-#: wp-includes/script-loader.php:1729
+#: wp-includes/script-loader.php:1731
 msgid "Enter your closest city to find nearby events."
 msgstr "Syötä lähin kaupunki löytääksesi lähistöllä olevia tapahtumia."
 
-#: wp-includes/script-loader.php:1730 wp-admin/includes/dashboard.php:1280
+#: wp-includes/script-loader.php:1732 wp-admin/includes/dashboard.php:1280
 msgid "An error occurred. Please try again."
 msgstr "Tapahtui virhe. Yritä uudelleen."
 
-#: wp-includes/script-loader.php:1731
+#: wp-includes/script-loader.php:1733
 msgid "Attend an upcoming event near you."
 msgstr "Osallistu lähistölläsi olevaan tapahtumaan."
 
 #. translators: %s: The name of a city.
-#: wp-includes/script-loader.php:1753
+#: wp-includes/script-loader.php:1755
 msgid "City updated. Listing events near %s."
 msgstr "Kaupunki päivitetty. Listataan tapahtumia lähellä kaupunkia %s."
 
@@ -4435,7 +4449,7 @@ msgstr "Kaupunki päivitetty. Listataan tapahtumia lähellä kaupunkia %s."
 #. examples with cities in your locale, but test * that they match the expected
 #. location before including them. * Use endonyms (native locale names)
 #. whenever possible.
-#: wp-includes/script-loader.php:1749 wp-admin/includes/dashboard.php:1364
+#: wp-includes/script-loader.php:1751 wp-admin/includes/dashboard.php:1364
 msgid "We couldn&#8217;t locate %s. Please try another nearby city. For example: Kansas City; Springfield; Portland."
 msgstr "Emme löytäneet kaupunkia %s. Yritä uudestaan toisella kaupungilla. Esimerkiksi: Helsinki; Tampere; Turku."
 
@@ -6895,7 +6909,7 @@ msgctxt "site"
 msgid "&larr; Back to %s"
 msgstr "&larr; Takaisin sivustolle %s"
 
-#: wp-includes/script-loader.php:1673 wp-admin/includes/dashboard.php:964
+#: wp-includes/script-loader.php:1674 wp-admin/includes/dashboard.php:964
 msgid "Today"
 msgstr "Tänään"
 
@@ -7509,14 +7523,14 @@ msgstr "Tämä tarkoittaa joko että tietokannan tunnus ja salasana ovat vääri
 msgid "If you don&#8217;t know how to set up a database you should <strong>contact your host</strong>. If all else fails you may find help at the <a href=\"%s\">WordPress Support Forums</a>."
 msgstr "Jos et tiedä miten tietokanta otetaan käyttöön, <strong>ota yhteys palveluntarjoajaasi</strong>. Jos mikään muu ei tuota tulosta, voit koittaa hakea neuvoa <a href=\"%s\">WordPress-tukifoorumilta</a>."
 
+#: wp-includes/wp-db.php:1102
+msgid "Are you sure it exists?"
+msgstr "Oletko varma, että se on olemassa?"
+
 #. translators: 1: Database user, 2: Database name.
 #: wp-includes/wp-db.php:1106
 msgid "Does the user %1$s have permission to use the %2$s database?"
 msgstr "Onko käyttäjällä %1$s oikeudet käyttää %2$s -tietokantaa?"
-
-#: wp-includes/wp-db.php:1102
-msgid "Are you sure it exists?"
-msgstr "Oletko varma, että se on olemassa?"
 
 #: wp-includes/wp-db.php:1093
 msgid "Can&#8217;t select database"
@@ -7873,7 +7887,7 @@ msgid "Live Preview: %s"
 msgstr "Esikatselu: %s"
 
 #: wp-includes/class-wp-customize-manager.php:580
-#: wp-admin/includes/ajax-actions.php:4251 wp-admin/includes/file.php:430
+#: wp-admin/includes/ajax-actions.php:4252 wp-admin/includes/file.php:430
 #: wp-admin/includes/file.php:440 wp-admin/theme-editor.php:69
 #: wp-admin/theme-editor.php:73 wp-admin/themes.php:28 wp-admin/themes.php:71
 msgid "The requested theme does not exist."
@@ -7984,21 +7998,21 @@ msgctxt "password strength"
 msgid "Strong"
 msgstr "Vahva"
 
-#: wp-includes/customize/class-wp-customize-header-image-control.php:237
-msgid "Add new image"
-msgstr "Lisää uusi kuva"
-
-#: wp-includes/customize/class-wp-customize-header-image-control.php:237
-msgid "Add new header image"
-msgstr "Lisää uusi otsakekuva"
+#: wp-includes/customize/class-wp-customize-header-image-control.php:236
+msgid "Hide header image"
+msgstr "Piilota otsakekuva"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:236
 msgid "Hide image"
 msgstr "Piilota kuva"
 
-#: wp-includes/customize/class-wp-customize-header-image-control.php:236
-msgid "Hide header image"
-msgstr "Piilota otsakekuva"
+#: wp-includes/customize/class-wp-customize-header-image-control.php:237
+msgid "Add new header image"
+msgstr "Lisää uusi otsakekuva"
+
+#: wp-includes/customize/class-wp-customize-header-image-control.php:237
+msgid "Add new image"
+msgstr "Lisää uusi kuva"
 
 #: wp-includes/class-wp-customize-manager.php:5157
 #: wp-admin/includes/template.php:2280
@@ -8018,10 +8032,6 @@ msgstr "Lisää valikkoon: %1$s (%2$s)"
 msgid "When starting a new paragraph with one of these formatting shortcuts followed by a space, the formatting will be applied automatically. Press Backspace or Escape to undo."
 msgstr "Kun kappale alkaa joillain näistä merkintätavoista ja välilyönnillä, muotoilu otetaan käyttöön automaattisesti. Paina askelpalautinta tai esc-näppäintä peruuttaaksesi."
 
-#: wp-login.php:836
-msgid "Your password reset link has expired. Please request a new link below."
-msgstr "Salasananvaihtolinkkisi on vanhentunut. Tilaa uusi linkki alta."
-
 #: wp-includes/wp-db.php:1482 wp-includes/wp-db.php:1499
 msgid "WordPress database error:"
 msgstr "WordPressin tietokantavirhe:"
@@ -8029,6 +8039,10 @@ msgstr "WordPressin tietokantavirhe:"
 #: wp-login.php:834
 msgid "Your password reset link appears to be invalid. Please request a new link below."
 msgstr "Salasananvaihtolinkkisi vaikuttaa vialliselta. Tilaa uusi linkki alta."
+
+#: wp-login.php:836
+msgid "Your password reset link has expired. Please request a new link below."
+msgstr "Salasananvaihtolinkkisi on vanhentunut. Tilaa uusi linkki alta."
 
 #: wp-includes/user.php:1590 wp-includes/ms-functions.php:517
 msgid "Username may not be longer than 60 characters."
@@ -8046,29 +8060,22 @@ msgstr "Aktiivinen teema"
 msgid "Previewing theme"
 msgstr "Esikatsellaan teemaa"
 
-#. translators: 1: Original menu name, 2: Duplicate count.
-#: wp-includes/customize/class-wp-customize-nav-menu-setting.php:522
-msgid "%1$s (%2$d)"
-msgstr "%1$s (%2$d)"
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:52
+msgid "Add or remove menu items"
+msgstr "Lisää tai poista valikkokohteita"
 
-#: wp-includes/class-wp-editor.php:1147
-msgctxt "HTML tag"
-msgid "Preformatted"
-msgstr "Valmiiksi muotoiltu"
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:55
+#: wp-includes/class-wp-customize-nav-menus.php:534
+msgid "Reorder menu items"
+msgstr "Järjestä valikkokohteet"
 
-#: wp-includes/class-wp-customize-nav-menus.php:659
-msgid "Menus can be displayed in locations defined by your theme."
-msgstr "Valikot voidaan näyttää teeman määrittämissä paikoissa."
+#: wp-includes/class-wp-customize-nav-menus.php:535
+msgid "Close reorder mode"
+msgstr "Sulje järjestystila"
 
-#. translators: %s: URL to the Widgets panel of the Customizer.
-#: wp-includes/class-wp-customize-nav-menus.php:655
-msgid "Menus can be displayed in locations defined by your theme or in <a href=\"%s\">widget areas</a> by adding a &#8220;Navigation Menu&#8221; widget."
-msgstr "Valikot voidaan näyttää teeman määrittämissä paikoissa tai <a href=\"%s\">vimpainalueilla</a> lisäämällä &#8221;Mukautettu valikko&#8221; -vimpaimen."
-
-#: wp-includes/class-wp-customize-widgets.php:786
-#: wp-includes/class-wp-customize-nav-menus.php:533
-msgid "Reorder mode closed"
-msgstr "Järjestystila suljettu"
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:60
+msgid "When in reorder mode, additional controls to reorder menu items will be available in the items list above."
+msgstr "Järjestystilassa lisätoiminnot ovat saatavilla valikkokohteiden järjestämiseen yllä olevien kohteiden kohdalla."
 
 #: wp-includes/customize/class-wp-customize-nav-menu-setting.php:440
 #: wp-includes/class-wp-customize-nav-menus.php:504
@@ -8081,22 +8088,29 @@ msgstr "(nimeämätön)"
 msgid "Reorder mode enabled"
 msgstr "Järjestystila käytössä"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:60
-msgid "When in reorder mode, additional controls to reorder menu items will be available in the items list above."
-msgstr "Järjestystilassa lisätoiminnot ovat saatavilla valikkokohteiden järjestämiseen yllä olevien kohteiden kohdalla."
+#: wp-includes/class-wp-customize-widgets.php:786
+#: wp-includes/class-wp-customize-nav-menus.php:533
+msgid "Reorder mode closed"
+msgstr "Järjestystila suljettu"
 
-#: wp-includes/class-wp-customize-nav-menus.php:535
-msgid "Close reorder mode"
-msgstr "Sulje järjestystila"
+#. translators: %s: URL to the Widgets panel of the Customizer.
+#: wp-includes/class-wp-customize-nav-menus.php:655
+msgid "Menus can be displayed in locations defined by your theme or in <a href=\"%s\">widget areas</a> by adding a &#8220;Navigation Menu&#8221; widget."
+msgstr "Valikot voidaan näyttää teeman määrittämissä paikoissa tai <a href=\"%s\">vimpainalueilla</a> lisäämällä &#8221;Mukautettu valikko&#8221; -vimpaimen."
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:55
-#: wp-includes/class-wp-customize-nav-menus.php:534
-msgid "Reorder menu items"
-msgstr "Järjestä valikkokohteet"
+#: wp-includes/class-wp-customize-nav-menus.php:659
+msgid "Menus can be displayed in locations defined by your theme."
+msgstr "Valikot voidaan näyttää teeman määrittämissä paikoissa."
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:52
-msgid "Add or remove menu items"
-msgstr "Lisää tai poista valikkokohteita"
+#. translators: 1: Original menu name, 2: Duplicate count.
+#: wp-includes/customize/class-wp-customize-nav-menu-setting.php:522
+msgid "%1$s (%2$d)"
+msgstr "%1$s (%2$d)"
+
+#: wp-includes/class-wp-editor.php:1147
+msgctxt "HTML tag"
+msgid "Preformatted"
+msgstr "Valmiiksi muotoiltu"
 
 #. translators: 1: PHP class name, 2: Version number, 3: __construct() method.
 #: wp-includes/functions.php:4872
@@ -8300,11 +8314,6 @@ msgstr "Muokataan"
 msgid "Add to Menu"
 msgstr "Lisää valikkoon"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1248
-#: wp-admin/includes/nav-menu.php:148
-msgid "Custom Links"
-msgstr "Mukautetut linkit"
-
 #: wp-includes/class-wp-customize-widgets.php:838
 #: wp-includes/customize/class-wp-customize-themes-section.php:130
 #: wp-includes/customize/class-wp-customize-themes-section.php:145
@@ -8313,6 +8322,11 @@ msgstr "Mukautetut linkit"
 #: wp-admin/plugin-install.php:91
 msgid "The search results will be updated as you type."
 msgstr "Hakutulokset päivittyvät samalla kun kirjoitat."
+
+#: wp-includes/class-wp-customize-nav-menus.php:1248
+#: wp-admin/includes/nav-menu.php:148
+msgid "Custom Links"
+msgstr "Mukautetut linkit"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1159
 msgid "Search menu items&hellip;"
@@ -8563,25 +8577,49 @@ msgid_plural "%1$s responses to %2$s"
 msgstr[0] "%1$s vastaus artikkeliin %2$s"
 msgstr[1] "%1$s vastausta artikkeliin %2$s"
 
-#: wp-includes/script-loader.php:1113
-msgid "Site Preview"
-msgstr "Sivuston esikatselu"
-
-#: wp-includes/taxonomy.php:432 wp-includes/taxonomy.php:433
-msgid "Taxonomy names must be between 1 and 32 characters in length."
-msgstr "Taksonomian nimen on oltava 1-32 merkkiä pitkä."
+#: wp-includes/theme.php:3490
+msgid "Customizer"
+msgstr "Mukautin"
 
 #: wp-includes/taxonomy.php:3947
 msgid "Could not split shared term."
 msgstr "Jaettua termiä ei voitu jakaa."
 
-#: wp-includes/theme.php:3490
-msgid "Customizer"
-msgstr "Mukautin"
+#: wp-includes/taxonomy.php:432 wp-includes/taxonomy.php:433
+msgid "Taxonomy names must be between 1 and 32 characters in length."
+msgstr "Taksonomian nimen on oltava 1-32 merkkiä pitkä."
 
-#: wp-includes/media.php:4201
-msgid "Drag and drop to reorder media files."
-msgstr "Järjestä mediatiedostot raahamalla ja pudottamalla."
+#: wp-includes/script-loader.php:1113
+msgid "Site Preview"
+msgstr "Sivuston esikatselu"
+
+#. translators: Revision date format, see https://www.php.net/date
+#: wp-includes/post-template.php:1828 wp-includes/post-template.php:1870
+msgctxt "revision date format"
+msgid "F j, Y @ H:i:s"
+msgstr "j.n.Y / H:i:s"
+
+#: wp-includes/post.php:1429 wp-includes/post.php:1430
+msgid "Post type names must be between 1 and 20 characters in length."
+msgstr "Sisältötyypin (post type) nimen on oltava 1-20 merkkiä pitkä."
+
+#. translators: 1: Site URL, 2: Table name, 3: Database name.
+#: wp-includes/ms-load.php:488
+msgid "<strong>Could not find site %1$s.</strong> Searched for table %2$s in database %3$s. Is that right?"
+msgstr "<strong>Sivustoa %1$s ei löytynyt.</strong> Haettiin taulua %2$s tietokannasta %3$s. Menikö oikein?"
+
+#: wp-includes/customize/class-wp-customize-nav-menu-item-setting.php:322
+#: wp-includes/class-wp-customize-nav-menus.php:168
+#: wp-includes/class-wp-customize-nav-menus.php:457
+#: wp-includes/class-wp-customize-nav-menus.php:505
+#: wp-includes/nav-menu.php:898
+msgid "Custom Link"
+msgstr "Oma linkki"
+
+#. translators: %s: Table name.
+#: wp-includes/ms-load.php:482
+msgid "<strong>Database tables are missing.</strong> This means that MySQL is not running, WordPress was not installed properly, or someone deleted %s. You really should look at your database now."
+msgstr "<strong>Tietokantatauluja puuttuu.</strong> Tämä tarkoittaa että MySQL ei ole käynnissä, WordPressin asennus on epäonnistunut, tai joku on poistanut taulun %s. Suosittelen vilkaisemaan tietokantaasi NYT."
 
 #. translators: Do not translate USERNAME, PASSWORD, LOGINLINK, SITE_NAME:
 #. those are placeholders.
@@ -8647,61 +8685,31 @@ msgstr ""
 "\n"
 "-- SITE_NAME ylläpito"
 
-#. translators: %s: Table name.
-#: wp-includes/ms-load.php:482
-msgid "<strong>Database tables are missing.</strong> This means that MySQL is not running, WordPress was not installed properly, or someone deleted %s. You really should look at your database now."
-msgstr "<strong>Tietokantatauluja puuttuu.</strong> Tämä tarkoittaa että MySQL ei ole käynnissä, WordPressin asennus on epäonnistunut, tai joku on poistanut taulun %s. Suosittelen vilkaisemaan tietokantaasi NYT."
+#: wp-includes/media.php:4201
+msgid "Drag and drop to reorder media files."
+msgstr "Järjestä mediatiedostot raahamalla ja pudottamalla."
 
-#: wp-includes/customize/class-wp-customize-nav-menu-item-setting.php:322
-#: wp-includes/class-wp-customize-nav-menus.php:168
-#: wp-includes/class-wp-customize-nav-menus.php:457
-#: wp-includes/class-wp-customize-nav-menus.php:505
-#: wp-includes/nav-menu.php:898
-msgid "Custom Link"
-msgstr "Oma linkki"
+#. translators: 1: 'text_direction' argument, 2: bloginfo() function name, 3:
+#. is_rtl() function name.
+#: wp-includes/general-template.php:851
+msgid "The %1$s option is deprecated for the family of %2$s functions. Use the %3$s function instead."
+msgstr "Option %1$s käyttöä ei enää suositella %2$s-funktioperheelle. Käytä sen sijaan funktiota %3$s."
 
-#. translators: 1: Site URL, 2: Table name, 3: Database name.
-#: wp-includes/ms-load.php:488
-msgid "<strong>Could not find site %1$s.</strong> Searched for table %2$s in database %3$s. Is that right?"
-msgstr "<strong>Sivustoa %1$s ei löytynyt.</strong> Haettiin taulua %2$s tietokannasta %3$s. Menikö oikein?"
-
-#: wp-includes/post.php:1429 wp-includes/post.php:1430
-msgid "Post type names must be between 1 and 20 characters in length."
-msgstr "Sisältötyypin (post type) nimen on oltava 1-20 merkkiä pitkä."
-
-#. translators: Revision date format, see https://www.php.net/date
-#: wp-includes/post-template.php:1828 wp-includes/post-template.php:1870
-msgctxt "revision date format"
-msgid "F j, Y @ H:i:s"
-msgstr "j.n.Y / H:i:s"
-
-#: wp-includes/media-template.php:950 wp-includes/class-wp-editor.php:1844
-#: wp-includes/class-wp-customize-nav-menus.php:1261
-#: wp-admin/includes/nav-menu.php:306
-msgid "Link Text"
-msgstr "Linkkiteksti"
+#. translators: 1: 'siteurl'/'home' argument, 2: bloginfo() function name, 3:
+#. 'url' argument.
+#: wp-includes/general-template.php:770
+msgid "The %1$s option is deprecated for the family of %2$s functions. Use the %3$s option instead."
+msgstr "Option %1$s käyttöä ei enää suositella %2$s-funktioperheelle. Käytä sen sijaan optiota %3$s."
 
 #. translators: %s: Post title.
-#: wp-includes/comment-template.php:1566
-msgid "1 Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "1 kommentti<span class=\"screen-reader-text\"> artikkeliin %s</span>"
+#: wp-includes/comment-template.php:1561
+msgid "No Comments<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Ei kommentteja<span class=\"screen-reader-text\"> artikkeliin %s</span>"
 
-#. translators: 1: Number of comments, 2: Post title.
-#: wp-includes/comment-template.php:1571
-msgid "%1$s Comment<span class=\"screen-reader-text\"> on %2$s</span>"
-msgid_plural "%1$s Comments<span class=\"screen-reader-text\"> on %2$s</span>"
-msgstr[0] "%1$s kommentti<span class=\"screen-reader-text\"> artikkeliin %2$s</span>"
-msgstr[1] "%1$s kommenttia<span class=\"screen-reader-text\"> artikkeliin %2$s</span>"
-
-#: wp-includes/widgets/class-wp-widget-archives.php:87
-#: wp-includes/blocks/archives.php:53
-msgid "Select Year"
-msgstr "Valitse vuosi"
-
-#. translators: %s: Post title.
-#: wp-includes/comment-template.php:1577
-msgid "Comments Off<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "Kommentit pois päältä<span class=\"screen-reader-text\"> artikkelissa %s</span>"
+#: wp-includes/widgets/class-wp-widget-archives.php:99
+#: wp-includes/blocks/archives.php:65
+msgid "Select Post"
+msgstr "Valitse artikkeli"
 
 #: wp-includes/widgets/class-wp-widget-archives.php:96
 #: wp-includes/blocks/archives.php:62
@@ -8713,27 +8721,33 @@ msgstr "Valitse viikko"
 msgid "Select Day"
 msgstr "Valitse päivä"
 
-#: wp-includes/widgets/class-wp-widget-archives.php:99
-#: wp-includes/blocks/archives.php:65
-msgid "Select Post"
-msgstr "Valitse artikkeli"
+#: wp-includes/widgets/class-wp-widget-archives.php:87
+#: wp-includes/blocks/archives.php:53
+msgid "Select Year"
+msgstr "Valitse vuosi"
 
 #. translators: %s: Post title.
-#: wp-includes/comment-template.php:1561
-msgid "No Comments<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "Ei kommentteja<span class=\"screen-reader-text\"> artikkeliin %s</span>"
+#: wp-includes/comment-template.php:1577
+msgid "Comments Off<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Kommentit pois päältä<span class=\"screen-reader-text\"> artikkelissa %s</span>"
 
-#. translators: 1: 'siteurl'/'home' argument, 2: bloginfo() function name, 3:
-#. 'url' argument.
-#: wp-includes/general-template.php:770
-msgid "The %1$s option is deprecated for the family of %2$s functions. Use the %3$s option instead."
-msgstr "Option %1$s käyttöä ei enää suositella %2$s-funktioperheelle. Käytä sen sijaan optiota %3$s."
+#. translators: 1: Number of comments, 2: Post title.
+#: wp-includes/comment-template.php:1571
+msgid "%1$s Comment<span class=\"screen-reader-text\"> on %2$s</span>"
+msgid_plural "%1$s Comments<span class=\"screen-reader-text\"> on %2$s</span>"
+msgstr[0] "%1$s kommentti<span class=\"screen-reader-text\"> artikkeliin %2$s</span>"
+msgstr[1] "%1$s kommenttia<span class=\"screen-reader-text\"> artikkeliin %2$s</span>"
 
-#. translators: 1: 'text_direction' argument, 2: bloginfo() function name, 3:
-#. is_rtl() function name.
-#: wp-includes/general-template.php:851
-msgid "The %1$s option is deprecated for the family of %2$s functions. Use the %3$s function instead."
-msgstr "Option %1$s käyttöä ei enää suositella %2$s-funktioperheelle. Käytä sen sijaan funktiota %3$s."
+#. translators: %s: Post title.
+#: wp-includes/comment-template.php:1566
+msgid "1 Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "1 kommentti<span class=\"screen-reader-text\"> artikkeliin %s</span>"
+
+#: wp-includes/media-template.php:950 wp-includes/class-wp-editor.php:1844
+#: wp-includes/class-wp-customize-nav-menus.php:1261
+#: wp-admin/includes/nav-menu.php:306
+msgid "Link Text"
+msgstr "Linkkiteksti"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:249
 #: wp-includes/customize/class-wp-customize-theme-control.php:251
@@ -8857,7 +8871,7 @@ msgstr "Roskakori"
 msgid "Edit Selection"
 msgstr "Muokkaa valintaa"
 
-#: wp-includes/script-loader.php:1677 wp-includes/js/dist/components.js:42054
+#: wp-includes/script-loader.php:1678 wp-includes/js/dist/components.js:42054
 msgid "Previous"
 msgstr "Edellinen"
 
@@ -9013,11 +9027,6 @@ msgstr "Tiedostoa ei ole valittu"
 msgid "Change file"
 msgstr "Vaihda tiedostoa"
 
-#: wp-includes/class-wp-editor.php:1374
-msgctxt "TinyMCE menu"
-msgid "Format"
-msgstr "Oma tyyli"
-
 #: wp-includes/post.php:76
 msgctxt "add new media"
 msgid "Add New"
@@ -9047,6 +9056,11 @@ msgstr "Linkki"
 msgctxt "list style"
 msgid "Default"
 msgstr "Oletus"
+
+#: wp-includes/class-wp-editor.php:1374
+msgctxt "TinyMCE menu"
+msgid "Format"
+msgstr "Oma tyyli"
 
 #: wp-login.php:1371
 msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
@@ -9821,12 +9835,6 @@ msgstr "Avainsanat"
 msgid "https://wordpress.org/support/"
 msgstr "https://fi.forums.wordpress.org/"
 
-#: wp-login.php:122 wp-includes/admin-bar.php:165
-#: wp-includes/widgets/class-wp-widget-meta.php:90 wp-admin/upgrade.php:68
-#: wp-admin/admin-footer.php:38 wp-admin/maint/repair.php:24
-msgid "https://wordpress.org/"
-msgstr "https://fi.wordpress.org/"
-
 #: wp-includes/admin-bar.php:195
 msgid "https://wordpress.org/support/forum/requests-and-feedback"
 msgstr "https://wordpress.org/support/forum/requests-and-feedback"
@@ -10157,7 +10165,7 @@ msgstr "Merkinnät mistä tahansa RSS- tai Atom-syötteestä."
 msgid "A cloud of your most used tags."
 msgstr "Avainsanapilvi käytetyimmistä avainsanoista."
 
-#: wp-includes/script-loader.php:1358
+#: wp-includes/script-loader.php:1359
 msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
@@ -10324,8 +10332,8 @@ msgstr "JavaScript on otettava käyttöön tämän toiminnon käyttämiseksi."
 #: wp-admin/includes/class-wp-privacy-policy-content.php:379
 #: wp-admin/includes/schema.php:426 wp-admin/includes/media.php:1668
 #: wp-admin/includes/ajax-actions.php:1564
-#: wp-admin/includes/ajax-actions.php:2801
-#: wp-admin/includes/ajax-actions.php:2804 wp-admin/includes/dashboard.php:623
+#: wp-admin/includes/ajax-actions.php:2802
+#: wp-admin/includes/ajax-actions.php:2805 wp-admin/includes/dashboard.php:623
 #: wp-admin/options-general.php:292 wp-admin/options-general.php:318
 #: wp-admin/update-core.php:879 wp-admin/admin.php:113
 #: wp-admin/edit-form-advanced.php:625 wp-admin/edit-form-advanced.php:628
@@ -10346,11 +10354,11 @@ msgstr "j.n.Y"
 #: wp-includes/class-wp-locale.php:365 wp-admin/includes/schema.php:428
 #: wp-admin/includes/class-wp-comments-list-table.php:953
 #: wp-admin/includes/ajax-actions.php:1564
-#: wp-admin/includes/ajax-actions.php:2802
-#: wp-admin/includes/ajax-actions.php:2805
+#: wp-admin/includes/ajax-actions.php:2803
+#: wp-admin/includes/ajax-actions.php:2806
 #: wp-admin/includes/class-wp-posts-list-table.php:1087
 #: wp-admin/options-general.php:292 wp-admin/options-general.php:355
-#: wp-admin/comment.php:217 wp-admin/update-core.php:879 wp-admin/admin.php:114
+#: wp-admin/comment.php:221 wp-admin/update-core.php:879 wp-admin/admin.php:114
 #: wp-admin/edit-form-advanced.php:625 wp-admin/edit-form-advanced.php:628
 msgid "g:i a"
 msgstr "H:i"
@@ -10473,7 +10481,7 @@ msgstr "Satunnainen"
 #: wp-admin/includes/class-wp-themes-list-table.php:93
 #: wp-admin/includes/class-wp-list-table.php:335
 #: wp-admin/includes/ajax-actions.php:2180
-#: wp-admin/includes/ajax-actions.php:3783
+#: wp-admin/includes/ajax-actions.php:3784
 msgid "No items found."
 msgstr "Kohteita ei löytynyt."
 
@@ -10958,13 +10966,13 @@ msgstr "Kirjoita sivuston otsikko."
 msgid "That name is not allowed."
 msgstr "Nimi ei kelpaa."
 
-#: wp-includes/ms-functions.php:513
-msgid "Username must be at least 4 characters."
-msgstr "Käyttäjätunnuksessa on oltava ainakin 4 merkkiä."
-
 #: wp-includes/ms-functions.php:487
 msgid "Please enter a username."
 msgstr "Kirjoita käyttäjätunnus."
+
+#: wp-includes/ms-functions.php:513
+msgid "Username must be at least 4 characters."
+msgstr "Käyttäjätunnuksessa on oltava ainakin 4 merkkiä."
 
 #. translators: %s: Minimum site name length.
 #: wp-includes/ms-functions.php:675
@@ -11011,7 +11019,7 @@ msgid "Remove image"
 msgstr "Poista kuva"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:784
-#: wp-admin/comment.php:78
+#: wp-admin/comment.php:82
 msgid "Sorry, you are not allowed to edit this comment."
 msgstr "Valitettavasti et voi muokata tätä kommenttia."
 
@@ -12008,13 +12016,9 @@ msgstr "Artikkeli"
 msgid "Parent Page:"
 msgstr "Yläsivu:"
 
-#: wp-includes/post.php:1705
-msgid "Search Posts"
-msgstr "Etsi artikkeleita"
-
-#: wp-includes/post.php:1705
-msgid "Search Pages"
-msgstr "Etsi sivuja"
+#: wp-includes/post.php:1700
+msgid "Add New Post"
+msgstr "Lisää uusi artikkeli"
 
 #: wp-includes/post.php:1700
 msgid "Add New Page"
@@ -12024,9 +12028,13 @@ msgstr "Lisää uusi sivu"
 msgid "Edit Page"
 msgstr "Muokkaa sivua"
 
-#: wp-includes/post.php:1700
-msgid "Add New Post"
-msgstr "Lisää uusi artikkeli"
+#: wp-includes/post.php:1705
+msgid "Search Pages"
+msgstr "Etsi sivuja"
+
+#: wp-includes/post.php:1705
+msgid "Search Posts"
+msgstr "Etsi artikkeleita"
 
 #: wp-includes/post.php:274
 msgid "No blocks found in Trash."
@@ -12467,8 +12475,8 @@ msgstr "Sivun poistaminen epäonnistui."
 #: wp-includes/class-wp-xmlrpc-server.php:3675
 #: wp-includes/class-wp-xmlrpc-server.php:3743
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:341
-#: wp-includes/comment.php:2444 wp-admin/comment.php:74
-#: wp-admin/comment.php:272 wp-admin/edit-comments.php:250
+#: wp-includes/comment.php:2444 wp-admin/comment.php:78
+#: wp-admin/comment.php:276 wp-admin/edit-comments.php:250
 msgid "Invalid comment ID."
 msgstr "Kommentin ID ei kelpaa."
 
@@ -12544,6 +12552,14 @@ msgstr "Eikö tänne ole linkkejä?"
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "Antamaasi URL-osoitteeseen ei voida lähettää päivitysilmoitusta. Kirjoitit osoitteen väärin tai kyseinen osoite ei voi vastaanottaa päivitysilmoituksia."
 
+#: wp-includes/class-wp-xmlrpc-server.php:6843
+msgid "The source URL and the target URL cannot both point to the same resource."
+msgstr "Lähde- ja kohdeosoite eivät saa viitata samaan resurssiin."
+
+#: wp-includes/class-wp-xmlrpc-server.php:6853
+msgid "The pingback has already been registered."
+msgstr "Päivitysilmoitus on jo rekisteröity."
+
 #: wp-includes/class-wp-xmlrpc-server.php:1392
 #: wp-includes/class-wp-xmlrpc-server.php:1940
 #: wp-includes/class-wp-xmlrpc-server.php:3609
@@ -12559,14 +12575,6 @@ msgstr "Antamaasi URL-osoitteeseen ei voida lähettää päivitysilmoitusta. Kir
 #: wp-admin/edit.php:13 wp-admin/edit.php:36
 msgid "Invalid post type."
 msgstr "Artikkelin tyyppi ei kelpaa."
-
-#: wp-includes/class-wp-xmlrpc-server.php:6843
-msgid "The source URL and the target URL cannot both point to the same resource."
-msgstr "Lähde- ja kohdeosoite eivät saa viitata samaan resurssiin."
-
-#: wp-includes/class-wp-xmlrpc-server.php:6853
-msgid "The pingback has already been registered."
-msgstr "Päivitysilmoitus on jo rekisteröity."
 
 #: wp-includes/class-wp-xmlrpc-server.php:6880
 msgid "The source URL does not exist."
@@ -13877,7 +13885,7 @@ msgstr "Lomakkeesta löytyi virheitä, korjaa virheet ja yritä uudelleen."
 msgid "Get your own %s account in seconds"
 msgstr "Luo oma %s käyttäjätilisi hetkessä"
 
-#: wp-includes/script-loader.php:1676
+#: wp-includes/script-loader.php:1677
 #: wp-includes/class-wp-customize-nav-menus.php:1110 wp-signup.php:621
 #: wp-includes/js/dist/components.js:42057
 msgid "Next"
@@ -14039,13 +14047,9 @@ msgstr "Yrität kirjautua ulos sivustolta %s"
 msgid "Paragraph"
 msgstr "Kappale"
 
-#: wp-includes/ms-functions.php:522
-msgid "Sorry, usernames must have letters too!"
-msgstr "Käyttäjätunnuksessa pitää olla myös kirjaimia!"
-
-#: wp-signup.php:617
-msgid "Just a username, please."
-msgstr "Vain käyttäjätunnus, kiitos."
+#: wp-includes/ms-load.php:494
+msgid "What do I do now?"
+msgstr "Mitä teen nyt?"
 
 #. translators: %s: User login.
 #: wp-login.php:434 wp-includes/pluggable.php:1995
@@ -14053,9 +14057,13 @@ msgstr "Vain käyttäjätunnus, kiitos."
 msgid "Username: %s"
 msgstr "Käyttäjätunnus: %s"
 
-#: wp-includes/ms-load.php:494
-msgid "What do I do now?"
-msgstr "Mitä teen nyt?"
+#: wp-signup.php:617
+msgid "Just a username, please."
+msgstr "Vain käyttäjätunnus, kiitos."
+
+#: wp-includes/ms-functions.php:522
+msgid "Sorry, usernames must have letters too!"
+msgstr "Käyttäjätunnuksessa pitää olla myös kirjaimia!"
 
 #: wp-login.php:361
 msgid "<strong>Error</strong>: Please enter a username or email address."
@@ -14322,6 +14330,23 @@ msgstr "Kellonajan oletusmuoto:"
 msgid "Height"
 msgstr "Korkeus"
 
+#: wp-includes/widgets/class-wp-widget-pages.php:163
+#: wp-includes/widgets/class-wp-widget-categories.php:187
+#: wp-includes/widgets/class-wp-widget-archives.php:219
+#: wp-includes/widgets/class-wp-nav-menu-widget.php:179
+#: wp-includes/widgets/class-wp-widget-search.php:71
+#: wp-includes/widgets/class-wp-widget-recent-comments.php:196
+#: wp-includes/widgets/class-wp-widget-tag-cloud.php:131
+#: wp-includes/widgets/class-wp-widget-meta.php:137
+#: wp-includes/widgets/class-wp-widget-recent-posts.php:168
+#: wp-includes/widgets/class-wp-widget-calendar.php:99
+#: wp-includes/widgets/class-wp-widget-text.php:491
+#: wp-includes/widgets/class-wp-widget-text.php:524
+#: wp-includes/widgets/class-wp-widget-media.php:415
+#: wp-includes/widgets/class-wp-widget-custom-html.php:265
+msgid "Title:"
+msgstr "Otsikko:"
+
 #: wp-includes/taxonomy.php:598
 msgid "Separate tags with commas"
 msgstr "Erottele avainsanat pilkulla"
@@ -14365,23 +14390,6 @@ msgstr "Ei kommentteja"
 #: wp-includes/comment-template.php:938
 msgid "1 Comment"
 msgstr "1 kommentti"
-
-#: wp-includes/widgets/class-wp-widget-pages.php:163
-#: wp-includes/widgets/class-wp-widget-categories.php:187
-#: wp-includes/widgets/class-wp-widget-archives.php:219
-#: wp-includes/widgets/class-wp-nav-menu-widget.php:179
-#: wp-includes/widgets/class-wp-widget-search.php:71
-#: wp-includes/widgets/class-wp-widget-recent-comments.php:196
-#: wp-includes/widgets/class-wp-widget-tag-cloud.php:131
-#: wp-includes/widgets/class-wp-widget-meta.php:137
-#: wp-includes/widgets/class-wp-widget-recent-posts.php:168
-#: wp-includes/widgets/class-wp-widget-calendar.php:99
-#: wp-includes/widgets/class-wp-widget-text.php:491
-#: wp-includes/widgets/class-wp-widget-text.php:524
-#: wp-includes/widgets/class-wp-widget-media.php:415
-#: wp-includes/widgets/class-wp-widget-custom-html.php:265
-msgid "Title:"
-msgstr "Otsikko:"
 
 #: wp-includes/link-template.php:1065 wp-includes/link-template.php:1425
 #: wp-includes/link-template.php:1533 wp-includes/link-template.php:1596
@@ -14451,7 +14459,7 @@ msgstr "Kommenttisi odottaa hyväksyntää."
 #: wp-admin/includes/meta-boxes.php:216 wp-admin/includes/meta-boxes.php:408
 #: wp-admin/includes/class-wp-comments-list-table.php:949
 #: wp-admin/includes/class-wp-posts-list-table.php:1083
-#: wp-admin/comment.php:213 wp-admin/edit-form-advanced.php:171
+#: wp-admin/comment.php:217 wp-admin/edit-form-advanced.php:171
 #: wp-admin/edit-form-comment.php:126
 msgid "%1$s at %2$s"
 msgstr "%1$s  %2$s"
@@ -14547,7 +14555,7 @@ msgstr "Oletus"
 
 #: wp-login.php:1106 wp-includes/comment-template.php:2350
 #: wp-admin/includes/class-wp-users-list-table.php:358
-#: wp-admin/includes/template.php:481 wp-admin/comment.php:171
+#: wp-admin/includes/template.php:481 wp-admin/comment.php:175
 #: wp-admin/user-new.php:389 wp-admin/user-new.php:485
 #: wp-admin/user-edit.php:502 wp-admin/edit-form-comment.php:53
 #: wp-admin/includes/class-wp-ms-users-list-table.php:199
@@ -14574,18 +14582,6 @@ msgid "Confirmed <span class=\"count\">(%s)</span>"
 msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
 msgstr[0] "Vahvistettu <span class=\"count\">(%s)</span>"
 msgstr[1] "Vahvistettu <span class=\"count\">(%s)</span>"
-
-#: wp-includes/class-wp-customize-widgets.php:775 wp-includes/media.php:4229
-#: wp-includes/class-wp-editor.php:1386
-#: wp-includes/js/dist/block-editor.js:34668
-#: wp-includes/js/dist/block-editor.js:34833
-#: wp-includes/js/dist/block-library.js:5001
-#: wp-includes/js/dist/block-library.js:25733
-#: wp-includes/js/dist/format-library.js:1035
-#: wp-admin/includes/class-wp-screen.php:1095
-#: wp-admin/includes/class-wp-list-table.php:480
-msgid "Apply"
-msgstr "Hyväksy"
 
 #: wp-includes/script-loader.php:925 wp-includes/media-template.php:740
 #: wp-includes/media-template.php:767 wp-includes/media-template.php:852
@@ -14630,13 +14626,13 @@ msgstr "Kuvaus"
 #: wp-admin/includes/class-wp-post-comments-list-table.php:26
 #: wp-admin/includes/class-wp-posts-list-table.php:624
 #: wp-admin/includes/class-wp-posts-list-table.php:1595
-#: wp-admin/comment.php:166 wp-admin/edit-form-comment.php:43
+#: wp-admin/comment.php:170 wp-admin/edit-form-comment.php:43
 msgid "Author"
 msgstr "Kirjoittaja"
 
 #. translators: Field name in comment form.
 #: wp-includes/comment-template.php:1117 wp-includes/comment-template.php:2416
-#: wp-admin/comment.php:228
+#: wp-admin/comment.php:232
 msgctxt "noun"
 msgid "Comment"
 msgstr "Kommentti"
@@ -14673,6 +14669,21 @@ msgstr "%s sitten"
 msgid "Undo"
 msgstr "Kumoa"
 
+#. translators: Default privacy policy heading.
+#: wp-includes/comment.php:3645 wp-includes/link-template.php:3062
+#: wp-includes/link-template.php:3125
+#: wp-admin/includes/class-wp-privacy-policy-content.php:512
+#: wp-admin/includes/meta-boxes.php:1558
+#: wp-admin/includes/class-wp-media-list-table.php:343
+#: wp-admin/includes/class-wp-comments-list-table.php:485
+#: wp-admin/includes/file.php:20
+#: wp-admin/includes/class-wp-posts-list-table.php:658
+#: wp-admin/includes/class-wp-posts-list-table.php:1757
+#: wp-admin/edit-comments.php:164 wp-admin/edit-comments.php:225
+#: wp-admin/js/edit-comments.js:221
+msgid "Comments"
+msgstr "Kommentit"
+
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:61
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:175
 #: wp-includes/widgets/class-wp-widget-media-image.php:113
@@ -14689,7 +14700,7 @@ msgstr "Kumoa"
 #: wp-admin/includes/class-wp-links-list-table.php:132
 #: wp-admin/includes/class-walker-nav-menu-edit.php:187
 #: wp-admin/includes/media.php:2911 wp-admin/includes/template.php:486
-#: wp-admin/includes/nav-menu.php:301 wp-admin/comment.php:177
+#: wp-admin/includes/nav-menu.php:301 wp-admin/comment.php:181
 #: wp-admin/edit-form-comment.php:59
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:361
 msgid "URL"
@@ -14714,28 +14725,13 @@ msgstr "URL"
 #: wp-admin/includes/class-wp-comments-list-table.php:769
 #: wp-admin/includes/class-wp-posts-list-table.php:412
 #: wp-admin/includes/class-wp-posts-list-table.php:1348
-#: wp-admin/includes/dashboard.php:700 wp-admin/comment.php:231
+#: wp-admin/includes/dashboard.php:700 wp-admin/comment.php:235
 #: wp-admin/edit-form-comment.php:139
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:692
 #: wp-admin/includes/class-wp-ms-users-list-table.php:396
 #: wp-admin/includes/class-wp-ms-users-list-table.php:510
 msgid "Edit"
 msgstr "Muokkaa"
-
-#. translators: Default privacy policy heading.
-#: wp-includes/comment.php:3645 wp-includes/link-template.php:3062
-#: wp-includes/link-template.php:3125
-#: wp-admin/includes/class-wp-privacy-policy-content.php:512
-#: wp-admin/includes/meta-boxes.php:1558
-#: wp-admin/includes/class-wp-media-list-table.php:343
-#: wp-admin/includes/class-wp-comments-list-table.php:485
-#: wp-admin/includes/file.php:20
-#: wp-admin/includes/class-wp-posts-list-table.php:658
-#: wp-admin/includes/class-wp-posts-list-table.php:1757
-#: wp-admin/edit-comments.php:164 wp-admin/edit-comments.php:225
-#: wp-admin/js/edit-comments.js:221
-msgid "Comments"
-msgstr "Kommentit"
 
 #. translators: accessibility text for the publish landmark region.
 #: wp-includes/script-loader.php:1094
@@ -14859,7 +14855,7 @@ msgstr "Lisäosat"
 #: wp-admin/includes/template.php:862 wp-admin/includes/file.php:2268
 #: wp-admin/includes/class-wp-posts-list-table.php:1915
 #: wp-admin/includes/dashboard.php:187 wp-admin/includes/dashboard.php:1325
-#: wp-admin/options-general.php:129 wp-admin/comment.php:240
+#: wp-admin/options-general.php:129 wp-admin/comment.php:244
 #: wp-admin/nav-menus.php:1076 wp-admin/user-new.php:549
 #: wp-admin/widgets.php:352 wp-admin/widgets.php:565 wp-admin/user-edit.php:527
 #: wp-admin/user-edit.php:642 wp-admin/js/post.js:989
@@ -15071,6 +15067,20 @@ msgstr "Versio"
 msgid "Images"
 msgstr "Kuvat"
 
+#: wp-includes/post.php:1703
+msgid "View Post"
+msgstr "Näytä artikkeli"
+
+#: wp-includes/post.php:1703
+msgid "View Page"
+msgstr "Näytä sivu"
+
+#: wp-includes/widgets/class-wp-widget-links.php:29
+#: wp-admin/link-manager.php:49
+#: wp-admin/includes/class-wp-terms-list-table.php:188 wp-admin/menu.php:80
+msgid "Links"
+msgstr "Linkit"
+
 #: wp-login.php:723 wp-includes/script-loader.php:1060
 #: wp-includes/media.php:4191 wp-includes/js/dist/editor.js:9795
 #: wp-admin/includes/class-wp-plugins-list-table.php:611
@@ -15126,22 +15136,8 @@ msgstr "Etsi"
 msgid "By %s"
 msgstr "Tekijä %s"
 
-#: wp-includes/post.php:1703
-msgid "View Post"
-msgstr "Näytä artikkeli"
-
-#: wp-includes/post.php:1703
-msgid "View Page"
-msgstr "Näytä sivu"
-
-#: wp-includes/widgets/class-wp-widget-links.php:29
-#: wp-admin/link-manager.php:49
-#: wp-admin/includes/class-wp-terms-list-table.php:188 wp-admin/menu.php:80
-msgid "Links"
-msgstr "Linkit"
-
 #: wp-includes/script-loader.php:811 wp-includes/script-loader.php:1107
-#: wp-includes/script-loader.php:1672
+#: wp-includes/script-loader.php:1673
 #: wp-includes/class-wp-customize-manager.php:5688
 #: wp-includes/class-wp-editor.php:1179 wp-includes/class-wp-editor.php:1835
 #: wp-includes/js/dist/components.js:35855
@@ -15284,20 +15280,12 @@ msgstr "Esikatsele"
 msgid "Edit Link Category"
 msgstr "Muokkaa kategoriaa"
 
-#: wp-includes/category-template.php:161
-#: wp-includes/js/dist/block-editor.js:25066
-#: wp-includes/js/dist/block-editor.js:25071
-#: wp-includes/js/dist/block-editor.js:25337
-#: wp-includes/js/dist/edit-post.js:5056 wp-admin/includes/upgrade.php:158
-msgid "Uncategorized"
-msgstr "Yleinen"
-
 #: wp-includes/script-loader.php:845
 #: wp-includes/widgets/class-wp-widget-text.php:538
 #: wp-includes/widgets/class-wp-widget-text.php:553
 #: wp-includes/class-wp-customize-manager.php:4268
 #: wp-includes/js/wp-pointer.js:20 wp-admin/includes/file.php:340
-#: wp-admin/includes/dashboard.php:1633 wp-admin/async-upload.php:100
+#: wp-admin/includes/dashboard.php:1635 wp-admin/async-upload.php:100
 #: wp-admin/index.php:160
 msgid "Dismiss"
 msgstr "Sulje"
@@ -15323,6 +15311,18 @@ msgstr "Sähköposti: %s"
 #: wp-includes/general-template.php:1153
 msgid "Search Results for &#8220;%s&#8221;"
 msgstr "Hakutulokset haulle &#8221;%s&#8221;"
+
+#: wp-includes/class-wp-customize-widgets.php:775 wp-includes/media.php:4229
+#: wp-includes/class-wp-editor.php:1386
+#: wp-includes/js/dist/block-editor.js:34668
+#: wp-includes/js/dist/block-editor.js:34833
+#: wp-includes/js/dist/block-library.js:5001
+#: wp-includes/js/dist/block-library.js:25733
+#: wp-includes/js/dist/format-library.js:1035
+#: wp-admin/includes/class-wp-screen.php:1095
+#: wp-admin/includes/class-wp-list-table.php:480
+msgid "Apply"
+msgstr "Käytä"
 
 #: wp-includes/media-template.php:463 wp-includes/media-template.php:668
 #: wp-includes/revision.php:32 wp-includes/class-wp-editor.php:1205
@@ -15403,7 +15403,7 @@ msgstr "Vieraile sivustolla"
 #: wp-admin/includes/class-wp-comments-list-table.php:951
 #: wp-admin/includes/ajax-actions.php:2209
 #: wp-admin/includes/class-wp-posts-list-table.php:1085
-#: wp-admin/comment.php:215
+#: wp-admin/comment.php:219
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:473
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:494
 #: wp-admin/includes/class-wp-ms-users-list-table.php:334

@@ -6,6 +6,7 @@ Template Name: Ansioluettelo
 
 <?php get_header();?>
 <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+<script src="/js/translations.js"></script>
 
 <section class="page-wrap-id-25">
     <div class="container">

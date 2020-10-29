@@ -26,8 +26,8 @@ function load_js()
     wp_register_script('bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', 'jquery', false, true);
     wp_enqueue_script('bootstrap');
 
-    wp_register_script('fixed-header', get_template_directory_uri() . '/js/fixed-header.js', 'jquery', false, true);
-    wp_enqueue_script('fixed-header');
+    wp_register_script('translations', get_template_directory_uri() . '/js/translations.js', 'jquery', false, true);
+    wp_enqueue_script('translations');
 }
 add_action('wp_enqueue_scripts', 'load_js');
 
