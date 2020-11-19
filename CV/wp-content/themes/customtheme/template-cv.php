@@ -6,7 +6,6 @@ Template Name: Ansioluettelo
 
 <?php get_header();?>
 <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-<script src="/js/translations.js"></script>
 
 <section class="page-wrap-id-25">
     <div class="container">
@@ -171,6 +170,15 @@ Template Name: Ansioluettelo
                                 </li>
                                 <li>
                                     <div class="skill_name">
+                                        Flutter
+                                    </div>
+                                    <div class="skill_progress">
+                                        <span style="width: 50%;"></span>
+                                    </div>
+                                    <div class="skill_per">50%</div>
+                                </li>
+                                <li>
+                                    <div class="skill_name">
                                         Python
                                     </div>
                                     <div class="skill_progress">
@@ -245,7 +253,7 @@ Template Name: Ansioluettelo
                                     </div>
                                     <div class="data">
                                         <p class="semi-bold">Twitch</p>
-                                        <p><a href="https://www.twitch.tv/super_michael_" target="_blank">super_michael_</a></p>
+                                        <p><a href="https://www.twitch.tv/super__michael" target="_blank">super_michael_</a></p>
                                     </div>
                                 </li>
                             </ul>
@@ -267,6 +275,20 @@ Template Name: Ansioluettelo
                             <p class="bold" id="experience">Työkokemus</p>
                         </div>
                         <ul id="line_1">
+                            <li>
+                                <div class="date" id="date_6">09.09.2020 - nykyhetki</div>
+                                <div class="info">
+                                    <p class="semi-bold" id="SSM">Suomen Suoramainonta - SSM</p> 
+                                    <p id="SSMText">Olin mainosten ja lehtien jakaja Suomen Suoramainonalle.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date" id="date_7">31.08.2020 - 04.09.2020</div>
+                                <div class="info">
+                                    <p class="semi-bold" id="WPP_2">Työelämään tutustuminen - TET</p> 
+                                    <p id="WPPText_3">Olin mobiilikehittäjä Devatus Oy:lla yhden viikon, käytin ohjelmointikieltä Flutter. Vastuuhenkilön (Sanna Lundström) kommentit: "Eleven visade sig att vara en duktig programmerare och gjorde sin uppgift bra.", suomeksi: Opiskelija osoittautui hyväksi ohjelmoijaksi ja teki työnsä hyvin.</p>
+                                </div>
+                            </li>
                             <li>
                                 <div class="date" id="date_1">12.10.2018</div>
                                 <div class="info">
@@ -294,7 +316,7 @@ Template Name: Ansioluettelo
                                 <div class="date" id="date_5">13.08.2020 - nykyhetki</div> 
                                 <div class="info">
                                     <p class="semi-bold" id="school_3">Vasa Övningsskola (peruskoulu)</p> 
-                                    <p id="schoolText_3">Olin vuoden Vaasassa koulussa.</p>
+                                    <p id="schoolText_3">Olin vuoden Vaasassa koulussa. Olin varapuheenjohtaja oppilaskunnassa.</p>
                                 </div>
                             </li>
                             <li>

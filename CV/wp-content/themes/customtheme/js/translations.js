@@ -1,7 +1,8 @@
+alert("Test");
 var dataReload = document.querySelectorAll("[data-reload]");
 
-var date = "27.10.2020";
-var englishDate = "10/27/2020"
+var date = "19.11.2020";
+var englishDate = "11/19/2020"
 
 function start() {
     if (!window.location.hash) {
@@ -44,8 +45,14 @@ var language = {
         hobbies: "Harrastukset",
         creator: "Sivun tekijä: Mikael Kolehmainen " + date,
         school_3: "Vasa Övningsskola (peruskoulu)",
-        schoolText_3: "Olin vuoden Vaasassa koulussa.",
-        date_5: "13.08.2020 - nykyhetki"
+        schoolText_3: "Olin vuoden Vaasassa koulussa. Olin varapuheenjohtaja oppilaskunnassa.",
+        date_5: "13.08.2020 - nykyhetki",
+        date_6: "09.09.2020 - nykyhetki",
+        SSM: "Suomen Suoramainonta - SSM",
+        SSMText: "Olin mainosten ja lehtien jakaja Suomen Suoramainonalle.",
+        date_7: "31.08.2020 - 04.09.2020",
+        WPP_2: "Työelämään tutustuminen - TET",
+        WPPText_3: "Olin mobiilikehittäjä Devatus Oy:lla yhden viikon, käytin ohjelmointikieltä Flutter. Vastuuhenkilön (Sanna Lundström) kommentit: \"Eleven visade sig att vara en duktig programmerare och gjorde sin uppgift bra.\", suomeksi: Opiskelija osoittautui hyväksi ohjelmoijaksi ja teki työnsä hyvin."
     },
     sve: {
         title: "Mikael Kolehmainen - CV",
@@ -80,8 +87,14 @@ var language = {
         hobbies: "Hobbyn",
         creator: "Sidans tilverkare: Mikael Kolehmainen " + date,
         school_3: "Vasa Övningsskola (grundskola)",
-        schoolText_3: "Jag var ett år i Vasa i skola.",
-        date_5: "13.08.2020 - nutid"
+        schoolText_3: "Jag var ett år i Vasa i skola. Jag var vice ordförande i elevkårsstyrelsen.",
+        date_5: "13.08.2020 - nutid",
+        date_6: "09.09.2020 - nutid",
+        SSM: "Suomen Suoramainonta - SSM",
+        SSMText: "Jag delade ut annonser och tidningar för företaget Suomen Suoramainonta.",
+        date_7: "31.08.2020 - 04.09.2020",
+        WPP_2: "Praktisk arbetslivsorientering - PRAO",
+        WPPText_3: "Jag var en mobilutvecklare på Devatus Ab en vecka, jag använde programmeringsspråket Flutter. Ansvarspersonens (Sanna Lundström) kommentarer: \"Eleven visade sig att vara en duktig programmerare och gjorde sin uppgift bra.\""
     },
     eng: {
         title: "Mikael Kolehmainen - CV",
@@ -116,8 +129,14 @@ var language = {
         hobbies: "Hobbies",
         creator: "Page creator: Mikael Kolehmainen " + englishDate,
         school_3: "Vasa Övningsskola (comprehensive school)",
-        schoolText_3: "I lived one year in Vaasa and went to a Vaasa's school.",
-        date_5: "08/13/2020 - present"
+        schoolText_3: "I lived one year in Vaasa and went to a school in Vaasa. I was the vice-chairman in the students' union.",
+        date_5: "08/13/2020 - present",
+        date_6: "09/09/2020 - present",
+        SSM: "Suomen Suoramainonta - SSM",
+        SSMText: "I delivered ads and newspapers for the company Suomen Suoramainonta.",
+        date_7: "08/31/2020 - 09/04/2020",
+        WPP_2: "Work practice program",
+        WPPText_3: "I was a mobile developer at Devatus Oy for a week, I used the programming language Flutter. The responsible persons (Sanna Lundström) comments: \"Eleven visade sig att vara en duktig programmerare och gjorde sin uppgift bra.\", on English: The student proved to be a good programmer and did his job well."
     }
 };
 
@@ -157,6 +176,12 @@ var language = {
             school_3.textContent = language.sve.school_3;
             schoolText_3.textContent = language.sve.schoolText_3;
             date_5.textContent = language.sve.date_5;
+            date_6.textContent = language.sve.date_6;
+            SSM.textContent = language.sve.SSM;
+            SSMText.textContent = language.sve.SSMText;
+            date_7.textContent = language.sve.date_7;
+            WPP_2.textContent = language.sve.WPP_2;
+            WPPText_3.textContent = language.sve.WPPText_3;
             
             var style = document.createElement('style');
             style.innerHTML = `
@@ -218,6 +243,12 @@ var language = {
             school_3.textContent = language.eng.school_3;
             schoolText_3.textContent = language.eng.schoolText_3;
             date_5.textContent = language.eng.date_5;
+            date_6.textContent = language.eng.date_6;
+            SSM.textContent = language.eng.SSM;
+            SSMText.textContent = language.eng.SSMText;
+            date_7.textContent = language.eng.date_7;
+            WPP_2.textContent = language.eng.WPP_2;
+            WPPText_3.textContent = language.eng.WPPText_3;
             
             var style = document.createElement('style');
             style.innerHTML = `
@@ -279,6 +310,12 @@ var language = {
             school_3.textContent = language.fin.school_3;
             schoolText_3.textContent = language.fin.schoolText_3;
             date_5.textContent = language.fin.date_5;
+            date_6.textContent = language.fin.date_6;
+            SSM.textContent = language.fin.SSM;
+            SSMText.textContent = language.fin.SSMText;
+            date_7.textContent = language.fin.date_7;
+            WPP_2.textContent = language.fin.WPP_2;
+            WPPText_3.textContent = language.fin.WPPText_3;
 
             var style = document.createElement('style');
             style.innerHTML = `
