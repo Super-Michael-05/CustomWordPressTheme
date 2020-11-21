@@ -261,9 +261,6 @@ Template Name: Ansioluettelo
                     </div>
                 </div>
                 <div class="resume_right">
-                    <a href="#fin" data-reload><img src="http://cv.test/wp-content/uploads/2020/09/FIN.png"></a>
-                    <a href="#sve" data-reload><img src="http://cv.test/wp-content/uploads/2020/09/SVE.png"></a>
-                    <a href="#eng" data-reload><img src="http://cv.test/wp-content/uploads/2020/09/ENG.jpg"></a>
                     <div class="resume_item resume_about">
                         <div class="title">
                             <p class="bold" id="about">Minusta</p>
@@ -335,7 +332,6 @@ Template Name: Ansioluettelo
                             </li>
                         </ul>
                     </div>
-                    <!-- ADD TO JAVASCRIPT TRANSLATION -->
                     <div class="resume_item resume_course">
                         <div class="title">
                             <p class="bold" id="course">Kurssit</p>
@@ -350,7 +346,6 @@ Template Name: Ansioluettelo
                             </li>
                         </ul>
                     </div>
-                    <!-- // ADD TO JAVASCRIPT TRANSLATION \\ -->
                     <div class="resume_item resume_hobby">
                         <div class="title">
                             <p class="bold" id="hobbies">Harrastukset</p>
