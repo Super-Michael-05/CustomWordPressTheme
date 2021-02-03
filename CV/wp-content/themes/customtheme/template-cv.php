@@ -14,7 +14,7 @@ Template Name: Ansioluettelo
             <div class="resume">
                 <div class="resume_left">
                     <div class="resume_profile">
-                        <img src="http://cv.test/wp-content/uploads/2020/09/Profile.jpg" alt="profile_pic">
+                        <img src="http://cv.test/wp-content/uploads/2021/02/Profile.jpg" alt="profile_pic">
                     </div>
                     <div class="resume_content">
                         <div class="resume_item resume_info">
@@ -36,7 +36,7 @@ Template Name: Ansioluettelo
                                         <i class="fas fa-map-signs"></i>
                                     </div>
                                     <div class="data">
-                                        Kalastajankatu 10 A6, Vaasa <br /> Finland
+                                    Koulukatu 57 - 61, Vaasa <br /> Finland
                                     </div>
                                 </li>
                                 <li>
@@ -353,7 +353,7 @@ Template Name: Ansioluettelo
                         <ul>
                             <li><i class="fas fa-book"></i></li>
                             <li><i class="fas fa-laptop-code"></i></li>
-                            <li><i class="fas fa-running"></i></li>
+                            <li><i class="fas fa-dumbbell"></i></li>
                             <li><i class="fas fa-gamepad"></i></li>
                         </ul>
                     </div>
