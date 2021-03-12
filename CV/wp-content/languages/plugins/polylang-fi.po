@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Polylang - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-18 21:25:05+0000\n"
+"PO-Revision-Date: 2021-03-08 14:35:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -273,68 +273,68 @@ msgstr "Sen kieli on: %s."
 msgid "You defined this page as your static homepage: %s."
 msgstr "Asetit tämä sivun staattiseksi etusivuksesi: %s."
 
-#: modules/wizard/wizard.php:767
+#: modules/wizard/wizard.php:829
 msgid "Ready!"
 msgstr "Valmis!"
 
-#: modules/wizard/wizard.php:678 modules/wizard/wizard.php:709
+#: modules/wizard/wizard.php:734 modules/wizard/wizard.php:769
 #: modules/wizard/view-wizard-step-home-page.php:33
 msgid "Homepage"
 msgstr "Etusivu"
 
-#: modules/wizard/wizard.php:615
+#: modules/wizard/wizard.php:666
 msgid "Content"
 msgstr "Sisältö"
 
-#: modules/wizard/wizard.php:452
+#: modules/wizard/wizard.php:492
 msgid "Remove this language"
 msgstr "Poista tämä kieli"
 
-#: modules/wizard/wizard.php:451
 #: modules/wizard/view-wizard-step-languages.php:136
+#: modules/wizard/wizard.php:491
 msgid "Ignore"
 msgstr "Ohita"
 
-#: modules/wizard/wizard.php:450
 #: modules/wizard/view-wizard-step-languages.php:127
+#: modules/wizard/wizard.php:490
 msgid "No"
 msgstr "Ei"
 
-#: modules/wizard/wizard.php:449
 #: modules/wizard/view-wizard-step-languages.php:118
+#: modules/wizard/wizard.php:489
 msgid "Yes"
 msgstr "Kyllä"
 
-#: modules/wizard/wizard.php:448
+#: modules/wizard/wizard.php:488
 msgid "A language wasn't added."
 msgstr "Yhtään kieltä ei lisätty."
 
-#: modules/wizard/wizard.php:441
+#: modules/wizard/wizard.php:481
 msgid "You selected a language, however, to be able to continue, you need to add it."
 msgstr "Valitsit kielen. Voidaksesi jatkaa, sinun tulee kuitenkin vielä lisätä se."
 
-#: modules/wizard/wizard.php:440
+#: modules/wizard/wizard.php:480
 msgid "You need to add at least one language."
 msgstr "Sinun tulee lisätä vähintään yksi kieli."
 
-#: modules/wizard/wizard.php:439
+#: modules/wizard/wizard.php:479
 msgid "You already added this language."
 msgstr "Olet jo lisännyt tämän kielen."
 
-#: modules/wizard/wizard.php:438
+#: modules/wizard/wizard.php:478
 msgid "You need to select a language to be added."
 msgstr "Sinun tulee valita lisättävä kieli."
 
+#: modules/wizard/wizard.php:375
 #: modules/wizard/view-wizard-step-licenses.php:21
-#: modules/wizard/wizard.php:345
 msgid "Licenses"
 msgstr "Lisenssit"
 
-#: modules/wizard/wizard.php:179
+#: modules/wizard/wizard.php:195
 msgid "Sorry, you are not allowed to manage options for this site."
 msgstr "Pahoittelemme, mutta sinulla ei ole oikeutta muokata tämän sivuston asetuksia."
 
-#: modules/wizard/wizard.php:125
+#: modules/wizard/wizard.php:137
 msgid "Setup"
 msgstr "Asetukset"
 
@@ -354,26 +354,22 @@ msgstr "Jotta sivustosi toimii oikein, sinun tulee nimetä kieli käytettäväks
 msgid "Content without language"
 msgstr "Sisällöt, joilta puuttuu kieli"
 
-#: include/license.php:230
+#: include/license.php:286
 msgid "Your license key has been disabled."
 msgstr "Lisenssiavaimesi on poistettu käytöstä."
 
-#: admin/admin-filters.php:288
+#: admin/admin-filters.php:122
 msgid "Privacy Policy Page"
 msgstr "Tietosuojaselosteen sivu"
 
-#: integrations/twenty-seventeen/twenty-seven-teen.php:29
-msgid "Header video"
-msgstr "Otsakkeen video"
-
 #. translators: 1: Plugin name 2: Current WordPress version 3: Required
 #. WordPress version
-#: install/install.php:68
+#: install/install.php:74
 msgid "%1$s has deactivated itself because you are using an old version of WordPress. You are using using WordPress %2$s. %1$s requires at least WordPress %3$s."
 msgstr "%1$s on poistettu käytöstä, koska käytät liian vanhaa versiota WordPressistä. Sinulla on käytössä WordPressin versio %2$s. %1$s vaatii vähintään version %3$s."
 
 #. translators: 1: Plugin name 2: Current PHP version 3: Required PHP version
-#: install/install.php:46
+#: install/install.php:50
 msgid "%1$s has deactivated itself because you are using an old version of PHP. You are using using PHP %2$s. %1$s requires PHP %3$s."
 msgstr "%1$s on poistettu käytöstä, koska käytät liian vanhaa versiota PHP:sta. Sinulla on käytössä PHP-versio %2$s. %1$s vaatii vähintään version %3$s."
 
@@ -386,51 +382,51 @@ msgid "North Macedonia"
 msgstr "Pohjois-Makedonia"
 
 #. translators: %1$s is a date, %2$s is link start tag, %3$s is link end tag.
-#: include/license.php:278
+#: include/license.php:334
 msgid "Your license key will expire soon! Precisely, it will expire on %1$s. %2$sRenew your license key today!%3$s."
 msgstr "Lisenssiavaimesi on menossa vanhaksi! Tarkkaan ottaen se vanhenee päivämäärällä %1$s. %2$sUudista lisenssiavaimesi tänään!%3$s."
 
-#: settings/settings-module.php:311
+#: settings/settings-module.php:317
 msgid "To enable this feature, you need Polylang Pro."
 msgstr "Voidaksesi ottaa käyttöön tämän toiminnon, tarvitset Polylang Pron."
 
-#: admin/admin-classic-editor.php:320
+#: admin/admin-classic-editor.php:359
 msgid "If you attempt to modify them anyway, your changes will not be saved."
 msgstr "Mikäli kuitenkin yrität muokata niitä, muutoksiasi ei tallenneta."
 
-#: admin/admin-classic-editor.php:318
+#: admin/admin-classic-editor.php:357
 msgid "Some taxonomies or metadata may be synchronized with existing translations that you are not allowed to modify."
 msgstr "Tietyt luokittelut ja metatiedot saatetaan yhdistää olemassaoleviin käännöksiin kanssa, joita sinulla ei ole oikeutta muuttaa."
 
 #. translators: %s is a comma separated list of native language names
-#: admin/admin-static-pages.php:244
+#: admin/admin-static-pages.php:190
 msgid "You must translate your static front page in %s."
 msgstr "Sinun tulee kääntää staattinen etusivusi kielelle %s."
 
 #. translators: %1$s is link start tag, %2$s is link end tag.
-#: admin/admin-notices.php:233
+#: admin/admin-notices.php:261
 msgid "We have noticed that you have been using Polylang for some time. We hope you love it, and we would really appreciate it if you would %1$sgive us a 5 stars rating%2$s."
 msgstr "Olet käyttänyt Polylangia jo jonkun aikaa ja toivottavasti pidät lisäosasta. Arvostaisimme kovasti, mikäli voisit %1$santaa meille viiden tähden arvion%2$s."
 
 #. translators: %1$s is link start tag, %2$s is link end tag.
-#: admin/admin-notices.php:210
+#: admin/admin-notices.php:236
 msgid "We have noticed that you are using Polylang with WooCommerce. To ensure compatibility, we recommend you use %1$sPolylang for WooCommerce%2$s."
 msgstr "Käytät Polylangia WooCommercen kanssa. Varmistaaksesi niiden yhteensopivuuden, suosittelemme sinua käyttämään lisäosaa %1$sPolylang for WooCommerce%2$s."
 
 #. translators: %1$s and %2$s are Polylang version numbers
-#: install/upgrade.php:82
+#: install/upgrade.php:91
 msgid "Before upgrading to %2$s, please upgrade to %1$s."
 msgstr "Ennen %2$s:n päivittämistä, pyydämme sinua päivittämään %1$s:n."
 
-#: modules/lingotek/lingotek.php:131
+#: modules/lingotek/lingotek.php:135
 msgid "When you activate your account, Lingotek will be able to get an accurate count of the number of words in your site. Then tell them which languages you wish to have them translated into."
 msgstr "Kun tilisi on otettu käyttöön, Lingotekin on mahdollista laskea täsmällisesti sivustollasi käytössä olevien sanojen määrä. Sen jälkeen voit kertoa heille mille kielille tahdot ne käännettävän."
 
-#: modules/lingotek/lingotek.php:128
+#: modules/lingotek/lingotek.php:132
 msgid "Do you need professional translations for your site?"
 msgstr "Tarvitseko ammattilaiskäännöksiä sivustollesi?"
 
-#: modules/lingotek/lingotek.php:107
+#: modules/lingotek/lingotek.php:111
 msgid "If you're on a tight budget, looking for near-instant results, and are okay with less-than-perfect quality, machine translation is an excellent option."
 msgstr "Koneellinen kääntäminen on erinomainen vaihtoehto, mikäli sinulla on rajallinen budjetti, tarvitset välittömästi näkyviä tuloksia, eikä sinua haittaa laatu, joka ei ole aivan täydellinen."
 
@@ -439,22 +435,22 @@ msgid "WP SYNTEX"
 msgstr "WP SYNTEX"
 
 #. translators: accessibility text
-#: settings/settings.php:328 modules/wizard/wizard.php:342
-#: modules/wizard/wizard.php:432 modules/wizard/wizard.php:612
-#: admin/admin-notices.php:193
+#: modules/wizard/wizard.php:371 modules/wizard/wizard.php:472
+#: modules/wizard/wizard.php:663 admin/admin-notices.php:217
+#: settings/settings.php:334
 msgid "Dismiss this notice."
 msgstr "Sulje tämä ilmoitus."
 
-#: include/filters.php:373
+#: include/filters.php:401
 msgid "User"
 msgstr "Käyttäjä"
 
 #. translators: %s is a language native name
-#: include/filters.php:364
+#: include/filters.php:392
 msgid "User description - %s"
 msgstr "Käyttäjän kuvaus - %s"
 
-#: include/filters.php:340
+#: include/filters.php:368
 msgid "Translated user descriptions"
 msgstr "Käännä käyttäjien kuvaukset"
 
@@ -472,42 +468,42 @@ msgstr "https://polylang.pro"
 msgid "Support and extra features are available to %1$sPolylang Pro%2$s users."
 msgstr "%1$sPolylang Pro%2$s -käyttäjille on tarjolla käyttötukea ja lisätoimintoja."
 
-#: settings/settings-module.php:313
+#: settings/settings-module.php:319
 msgid "Upgrade now."
 msgstr "Päivitä nyt."
 
 #. translators: %s is a date
-#: include/license.php:286
+#: include/license.php:342
 msgid "Your license key expires on %s."
 msgstr "Lisenssiavaimesi vanhentuu %s."
 
-#: include/license.php:273
+#: include/license.php:329
 msgid "The license key never expires."
 msgstr "Lisenssiavain ei vanhene koskaan."
 
 #. translators: %1$s is link start tag, %2$s is link end tag
-#: include/license.php:261
+#: include/license.php:317
 msgid "Your license key has reached its activation limit. %1$sView possible upgrades%2$s now."
 msgstr "Lisenssiavaimesi on saavuttanut aktivointien maksimimäärän. %1$sKatso mahdolliset päivitykset%2$s."
 
 #. translators: %s is a product name
-#: include/license.php:255
+#: include/license.php:311
 msgid "This is not a %s license key."
 msgstr "Tämä ei ole lisenssiavain tuotteelle %s."
 
 #. translators: %1$s is a product name, %2$s is link start tag, %3$s is link
 #. end tag.
-#: include/license.php:246
+#: include/license.php:302
 msgid "Your %1$s license key is not active for this URL. Please %2$svisit your account page%3$s to manage your license key URLs."
 msgstr "%1$s Lisenssiavain ei ole aktiivinen tälle URL-osoitteelle. %2$sKäy tilisi hallintasivulla%3$s ja muokkaa lisenssiavaimesi URL-osoitteita."
 
 #. translators: %1$s is link start tag, %2$s is link end tag.
-#: include/license.php:236
+#: include/license.php:292
 msgid "Invalid license. Please %1$svisit your account page%2$s and verify it."
 msgstr "Lisenssi ei ole kelvollinen. Ole hyvä ja varmenna se %1$stilisi hallintasivulla%2$s."
 
 #. translators: %1$s is a date, %2$s is link start tag, %3$s is link end tag.
-#: include/license.php:221
+#: include/license.php:277
 msgid "Your license key expired on %1$s. Please %2$srenew your license key%3$s."
 msgstr "Lisenssiavaimesi on vanhentunut %1$s. %2$sUusi lisenssiavaimesi%3$s."
 
@@ -535,23 +531,23 @@ msgstr "Sallii saman polkutunnuksen artikkeleille ja termeille eri kielillä."
 msgid "Share slugs"
 msgstr "Yhteiset polkutunnukset"
 
-#: install/plugin-updater.php:522
+#: install/plugin-updater.php:510
 msgid "Error"
 msgstr "Virhe"
 
-#: install/plugin-updater.php:522
+#: install/plugin-updater.php:510
 msgid "You do not have permission to install plugin updates"
 msgstr "Sinulla ei ole oikeuksia lisäosien päivittämiseen"
 
 #. translators: %1$s plugin name, %3$s plugin version, %2$s and %5$s are link
 #. start tags, %4$s and %6$s are link end tags.
-#: install/plugin-updater.php:278
+#: install/plugin-updater.php:266
 msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
 msgstr "Uusi versio lisäosasta %1$s on saatavilla. %2$sKatso %3$s lisätietoa versiosta%4$s tai %5$späivitä heti%6$s."
 
 #. translators: %1$s plugin name, %3$s plugin version, %2$s is link start tag,
 #. %4$s is link end tag.
-#: install/plugin-updater.php:269
+#: install/plugin-updater.php:257
 msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
 msgstr "Uusi versio lisäosasta %1$s on saatavilla. %2$sKatso %3$s lisätietoa versiosta%4$s."
 
@@ -570,88 +566,89 @@ msgid "Choose a flag for the language."
 msgstr "Valitse kielelle lippu."
 
 #. translators: accessibility text
-#: settings/table-string.php:316
+#: settings/table-string.php:345
 msgid "Filter by group"
 msgstr "Suodata ryhmän mukaan"
 
 #. translators:  accessibility text, %s is a string potentially in any language
-#: settings/table-string.php:76
+#: settings/table-string.php:102
 msgid "Select %s"
 msgstr "Valitse %s"
 
-#: settings/table-settings.php:147
+#: settings/table-settings.php:149
 msgid "Description"
 msgstr "Seloste"
 
-#: settings/table-settings.php:146
+#: settings/table-settings.php:148
 msgid "Module"
 msgstr "Moduuli"
 
-#: settings/settings-module.php:142
+#: settings/settings-module.php:140
 msgid "Save Changes"
 msgstr "Tallenna muutokset"
 
-#: settings/settings-module.php:141
+#: settings/settings-module.php:139 js/lib/confirmation-modal.js:80
+#: js/build/block-editor.js:83 js/build/classic-editor.js:83
 msgid "Cancel"
 msgstr "Kumoa"
 
-#: settings/table-languages.php:210
+#: settings/table-languages.php:211
 msgid "Delete this language and all its associated data"
 msgstr "Poista tämä kieli ja kaikki siihen liitetty data."
 
 #. translators: accessibility text, %s is a native language name
-#: settings/table-languages.php:116
+#: settings/table-languages.php:117
 msgid "Choose %s as default language"
 msgstr "Valitse %s oletuskieleksi"
 
-#: settings/table-languages.php:113
+#: settings/table-languages.php:114
 msgid "Select as default language"
 msgstr "Aseta oletuskieleksi"
 
-#: settings/table-languages.php:90 settings/table-languages.php:204
+#: settings/table-languages.php:91 settings/table-languages.php:205
 msgid "Edit this language"
 msgstr "Muokkaa kieltä"
 
-#: settings/settings.php:344
+#: settings/settings.php:352
 msgid "You can set them all to the default language."
 msgstr "Voit asettaa ne kaikki oletuskielelle."
 
-#: settings/settings.php:342
 #: modules/wizard/view-wizard-step-untranslated-contents.php:19
+#: settings/settings.php:350
 msgid "There are posts, pages, categories or tags without language."
 msgstr "Löydettiin artikkeleja, sivuja, kategorioita tai avainsanoja joihin ei ole asetettu kieltä."
 
 #. translators: %s is an url
-#: settings/settings-url.php:306
+#: settings/settings-url.php:324
 msgid "Polylang was unable to access the %s URL. Please check that the URL is valid."
 msgstr "Polylang ei päässyt %s verkko-osoitteeseen. Tarkista, että verkko-osoite on kelvollinen."
 
 #. translators: %s is a native language name
-#: settings/settings-url.php:251
+#: settings/settings-url.php:268
 msgid "Please enter a valid URL for %s."
 msgstr "Lisää kelvollinen verkko-osoite kielelle %s."
 
-#: settings/settings-url.php:32
+#: settings/settings-url.php:39
 msgid "Decide how your URLs will look like."
 msgstr "Valitse kuinka verkko-osoitteet esitetään."
 
-#: settings/settings-module.php:137
+#: settings/settings-module.php:135
 msgid "Deactivated"
 msgstr "Poistettu käytöstä"
 
-#: settings/settings-module.php:132
+#: settings/settings-module.php:130
 msgid "Activate this module"
 msgstr "Ota tämä moduuli käyttöön"
 
-#: include/license.php:270 settings/settings-module.php:128
+#: include/license.php:326 settings/settings-module.php:126
 msgid "Deactivate"
 msgstr "Poista käytöstä"
 
-#: settings/settings-module.php:126
+#: settings/settings-module.php:124
 msgid "Deactivate this module"
 msgstr "Poista tämä moduli käytöstä"
 
-#: settings/settings-module.php:120
+#: settings/settings-module.php:118
 msgid "Configure this module"
 msgstr "Tee määritykset tälle moduulille"
 
@@ -1668,11 +1665,11 @@ msgstr "Artikkeleiden sivu"
 msgid "Front Page"
 msgstr "Etusivu"
 
-#: admin/admin-nav-menu.php:78
+#: admin/admin-nav-menu.php:82
 msgid "Add to Menu"
 msgstr "Lisää listaan"
 
-#: modules/wizard/wizard.php:447 admin/admin-model.php:305
+#: modules/wizard/wizard.php:487 admin/admin-model.php:300
 msgid "The flag does not exist"
 msgstr "Lippua ei löydy"
 
@@ -1682,18 +1679,18 @@ msgid "Add a translation in %s"
 msgstr "Lisää käännös kielellä %s"
 
 #. translators: accessibility text, %s is a native language name
-#: admin/admin-filters-columns.php:171 admin/admin-filters-columns.php:302
+#: admin/admin-filters-columns.php:196 admin/admin-filters-columns.php:331
 msgid "This item is in %s"
 msgstr "Tämä sisältö on kielellä %s"
 
 #. translators: accessibility text, %s is a native language name
-#: admin/admin-filters-columns.php:157 admin/admin-filters-columns.php:288
+#: admin/admin-filters-columns.php:177 admin/admin-filters-columns.php:317
 #: admin/admin-links.php:54
 msgid "Edit the translation in %s"
 msgstr "Muokkaa kieliversiota kielellä %s"
 
 #. translators: accessibility text, %s is a native language name
-#: admin/admin-filters-columns.php:153 admin/admin-filters-columns.php:284
+#: admin/admin-filters-columns.php:173 admin/admin-filters-columns.php:313
 msgid "Edit this item in %s"
 msgstr "Muokkaa kielellä %s"
 
@@ -1705,111 +1702,111 @@ msgstr "Lisää monikielisyyden tuen WordPressiin"
 msgid "Polylang"
 msgstr "Polylang"
 
-#: modules/lingotek/lingotek.php:266
+#: modules/lingotek/lingotek.php:273
 msgid "Learn more..."
 msgstr "Lue lisää..."
 
-#: modules/lingotek/lingotek.php:146
+#: modules/lingotek/lingotek.php:150
 msgid "Do you need help creating glossaries and terminologies?"
 msgstr "Tarvitsetko apua sanastojen luomiseen ja termien määrittämiseen?"
 
-#: modules/lingotek/lingotek.php:145
+#: modules/lingotek/lingotek.php:149
 msgid "Do you have existing Translation Memories you would like to use?"
 msgstr "Onko sinulla aiempia käännösmuisteja (Translation Memories) joita haluaisit hyödyntää?"
 
-#: modules/lingotek/lingotek.php:144
+#: modules/lingotek/lingotek.php:148
 msgid "Do you need customized workflows?"
 msgstr "Tarvitsetko mukautettuja työnkulkuja?"
 
-#: modules/lingotek/lingotek.php:143
+#: modules/lingotek/lingotek.php:147
 msgid "Do you need someone to run your localization project?"
 msgstr "Tarvitsetko jonkun johtamaan paikallistamisprojektia?"
 
-#: modules/lingotek/lingotek.php:142
+#: modules/lingotek/lingotek.php:146
 msgid "Start the process of getting extra services."
 msgstr "Aloita lisäpalveluiden hankintaprosessi."
 
-#: modules/lingotek/lingotek.php:140
+#: modules/lingotek/lingotek.php:144
 msgid "Do you need help translating your site?"
 msgstr "Tarvitsetko apua sivuston kääntämiseen?"
 
-#: modules/lingotek/lingotek.php:139
+#: modules/lingotek/lingotek.php:143
 msgid "Need extra services?"
 msgstr "Tarvitsetko lisäpalveluita?"
 
-#: modules/lingotek/lingotek.php:132
+#: modules/lingotek/lingotek.php:136
 msgid "Once activated, click on the \"request translation bid\" and a certified translation project manager will contact you for a no-obligations translation bid."
 msgstr "Kun olet ottanut käyttöön käyttäjätunnuksen, pyydä tarjousta käännöksistä. Sertifioitu projektipäällikkö ottaa sinuun yhteyttä ja antaa tarjouksen käännöksistä. Tämä ei sido sinua mihinkään."
 
-#: modules/lingotek/lingotek.php:130
+#: modules/lingotek/lingotek.php:134
 msgid "Start the process of getting a professional translation bid."
 msgstr "Hanki tarjous ammattilaiskäännöksestä."
 
-#: modules/lingotek/lingotek.php:127
+#: modules/lingotek/lingotek.php:131
 msgid "Professionally translate my site"
 msgstr "Käännä sivusto ammattilaisten avustuksella"
 
-#: modules/lingotek/lingotek.php:120
+#: modules/lingotek/lingotek.php:124
 msgid "Save and re-use previously translated material (leverage translation memory (TM))."
 msgstr "Tallenna ja käytä uudelleen käännettyä materiaalia hyödyntämällä käännösmuistia (translation memory (TM))."
 
-#: modules/lingotek/lingotek.php:119
+#: modules/lingotek/lingotek.php:123
 msgid "Have linguists compare side-by-side versions of original and translated text."
 msgstr "Saat avuksesi kääntäjät, jotka vertaavat alkuperäistä ja käännettyä tekstiä."
 
-#: modules/lingotek/lingotek.php:118
+#: modules/lingotek/lingotek.php:122
 msgid "Access an online translator workbench."
 msgstr "Käytä käännöstyöpöytää verkossa."
 
-#: modules/lingotek/lingotek.php:115
+#: modules/lingotek/lingotek.php:119
 msgid "Do you need to connect to a professional translation management system?"
 msgstr "Tarvitsetko ammattilaistason käännösten hallintajärjestelmää?"
 
-#: modules/lingotek/lingotek.php:114
+#: modules/lingotek/lingotek.php:118
 msgid "Translation Management System"
 msgstr "Käännösten hallintajärjestelmä"
 
-#: modules/lingotek/lingotek.php:106 modules/lingotek/lingotek.php:117
+#: modules/lingotek/lingotek.php:110 modules/lingotek/lingotek.php:121
 msgid "Access free machine translation for your site for up to 100,000 characters."
 msgstr "Käytä ilmaista konekäännöstä sivustolla aina 100 000 merkkiin asti."
 
-#: modules/lingotek/lingotek.php:104
+#: modules/lingotek/lingotek.php:108
 msgid "Polylang is now fully integrated with Lingotek!"
 msgstr "Polylang on nyt täysin integroitu Lingotekkiin!"
 
-#: modules/lingotek/lingotek.php:103
+#: modules/lingotek/lingotek.php:107
 msgid "Automatically translate my site"
 msgstr "Käännä sivusto automaattisesti"
 
-#: modules/lingotek/lingotek.php:100
+#: modules/lingotek/lingotek.php:104
 msgid "Polylang is now fully integrated with Lingotek, a professional translation management system!"
 msgstr "Polylang on nyt täysin liitetty Lingotekkiin, joka on ammattilaistasoinen kieliversiointijärjestelmä."
 
-#: modules/lingotek/lingotek.php:93
+#: modules/lingotek/lingotek.php:97
 msgid "Request Services"
 msgstr "Pyydä palveluita"
 
-#: modules/lingotek/lingotek.php:87
+#: modules/lingotek/lingotek.php:91
 msgid "Request Translation"
 msgstr "Pyydä käännöstä"
 
-#: settings/settings-module.php:134 modules/lingotek/lingotek.php:82
+#: modules/lingotek/lingotek.php:86 settings/settings-module.php:132
 msgid "Activate"
 msgstr "Ota käyttöön"
 
-#: settings/settings-module.php:136 modules/lingotek/lingotek.php:82
+#: modules/lingotek/lingotek.php:86 settings/settings-module.php:134
 msgid "Activated"
 msgstr "Otettu käyttöön"
 
-#: modules/lingotek/lingotek.php:45
+#: modules/lingotek/lingotek.php:47
 msgid "Activate Lingotek"
 msgstr "Ota Lingotek käyttöön"
 
-#: modules/lingotek/lingotek.php:40
+#: modules/lingotek/lingotek.php:42
 msgid "Click on Activate Lingotek to start translating."
 msgstr "Aloita kääntäminen klikkaamalla \"Ota Lingotek käyttöön\"."
 
-#: modules/lingotek/lingotek.php:36
+#: modules/lingotek/lingotek.php:38
 msgid "Learn more"
 msgstr "Lue lisää"
 
@@ -1817,15 +1814,15 @@ msgstr "Lue lisää"
 msgid "Close"
 msgstr "Sulje"
 
-#: modules/lingotek/lingotek.php:31
+#: modules/lingotek/lingotek.php:33
 msgid "You’ve just upgraded to the latest version of Polylang! Would you like to automatically translate your website for free?"
 msgstr "Polylang on päivitetty viimeisimpään versioon! Haluaisitko käännättää sivustosi automaattisesti ilmaiseksi Lingotekillä?"
 
-#: install/upgrade.php:79
+#: install/upgrade.php:88
 msgid "Polylang has been deactivated because you upgraded from a too old version."
 msgstr "Polylang on poistettu käytöstä, koska päivitit liian vanhasta versiosta."
 
-#: include/widget-languages.php:93
+#: include/widget-languages.php:118
 msgid "Title:"
 msgstr "Otsikko:"
 
@@ -1839,27 +1836,27 @@ msgctxt "calendar caption"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-#: include/switcher.php:25
+#: include/switcher.php:46
 msgid "Displays as a dropdown"
 msgstr "Näytä pudotusvalikkona"
 
-#: include/switcher.php:30
+#: include/switcher.php:51
 msgid "Hides languages with no translation"
 msgstr "Piiloittaa kielet, joista ei ole käännöksiä"
 
-#: include/switcher.php:29
+#: include/switcher.php:50
 msgid "Hides the current language"
 msgstr "Piilottaa nykyisen kielen"
 
-#: include/switcher.php:28
+#: include/switcher.php:49
 msgid "Forces link to front page"
 msgstr "Pakottaa linkin etusivulle"
 
-#: include/switcher.php:27
+#: include/switcher.php:48
 msgid "Displays flags"
 msgstr "Näytä liput"
 
-#: include/switcher.php:26
+#: include/switcher.php:47
 msgid "Displays language names"
 msgstr "Näytä kielien nimet"
 
@@ -1867,12 +1864,12 @@ msgstr "Näytä kielien nimet"
 msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
 msgstr "Tuo <strong>artikkeleita, sivuja, kommentteja, mukautettuja kenttiä, kategorioita ja avainsanoja</strong> WordPressin vientitiedostosta."
 
-#: include/model.php:385
+#: include/model.php:414
 msgid "Uncategorized"
 msgstr "Yleinen"
 
-#: frontend/frontend-filters-search.php:86
-#: frontend/frontend-filters-search.php:87
+#: frontend/frontend-filters-search.php:102
+#: frontend/frontend-filters-search.php:103
 msgid "Search"
 msgstr "Haku"
 
@@ -1916,8 +1913,8 @@ msgstr "Mukautetut artikkelien mallit"
 msgid "Activate languages and translations for media"
 msgstr "Aktivoi kielet ja käännökset mediassa."
 
-#: settings/settings-media.php:31 modules/wizard/view-wizard-step-media.php:21
-#: modules/wizard/wizard.php:565
+#: modules/wizard/view-wizard-step-media.php:21 modules/wizard/wizard.php:609
+#: settings/settings-media.php:31
 msgid "Media"
 msgstr "Media"
 
@@ -1931,66 +1928,66 @@ msgstr "Tunnista selaimen kieli"
 
 #. translators: %1$s example url when the option is active. %2$s example url
 #. when the option is not active
-#: settings/settings-url.php:180
+#: settings/settings-url.php:194
 msgid "Example: %1$s instead of %2$s"
 msgstr "Esimerkki: %1$s %2$s:n sijasta"
 
-#: settings/settings-url.php:169
+#: settings/settings-url.php:183
 msgid "The front page url contains the language code instead of the page name or page id"
 msgstr "Etusivun url-osoite sisältää kielikoodin sivun nimen tai sivun tunnisteen sijasta"
 
-#: settings/settings-url.php:149
+#: settings/settings-url.php:161
 msgid "Keep /language/ in pretty permalinks"
 msgstr "Säilytä /kieli/ käyttäjäystävällisissä kestolinkeissä"
 
-#: settings/settings-url.php:138
+#: settings/settings-url.php:150
 msgid "Remove /language/ in pretty permalinks"
 msgstr "Poista /kieli/ käyttäjäystävällisistä kestolinkeistä"
 
-#: settings/settings-url.php:118
+#: settings/settings-url.php:128
 msgid "Hide URL language information for default language"
 msgstr "Piilota URL-osoitteen kielitieto oletuskieleltä"
 
-#: settings/settings-url.php:85
+#: settings/settings-url.php:93
 msgid "The language is set from different domains"
 msgstr "Kieli on asetettu eri verkkotunnukselle"
 
-#: settings/settings-url.php:74
+#: settings/settings-url.php:82
 msgid "The language is set from the subdomain name in pretty permalinks"
 msgstr "Kieli on asetettu aliverkkotunnuksesta käyttäjäystävällisissä kestolinkeissä"
 
-#: settings/settings-url.php:67 settings/settings-url.php:78
-#: settings/settings-url.php:142 settings/settings-url.php:153
+#: settings/settings-url.php:75 settings/settings-url.php:86
+#: settings/settings-url.php:154 settings/settings-url.php:165
 msgid "Example:"
 msgstr "Esimerkki:"
 
-#: settings/settings-url.php:63
+#: settings/settings-url.php:71
 msgid "The language is set from the code in the URL"
 msgstr "Kieli on asetettu koodilla verkko-osoitteessa"
 
-#: settings/settings-url.php:63
+#: settings/settings-url.php:71
 msgid "The language is set from the directory name in pretty permalinks"
 msgstr "Kieli on asetettu hakemiston nimestä käyttäjäystävällisissä kestolinkeissä"
 
-#: settings/settings-url.php:57
+#: settings/settings-url.php:65
 msgid "Posts, pages, categories and tags URLs will not be modified."
 msgstr "Artikkelien, sivujen, kategorioiden ja avainsanojen url-osoitteet eivät ole muokattuja."
 
-#: settings/settings-url.php:53
+#: settings/settings-url.php:61
 msgid "The language is set from content"
 msgstr "Kieli on asetettu sisällöstä"
 
-#: settings/settings-url.php:31
+#: settings/settings-url.php:38
 msgid "URL modifications"
 msgstr "URL muunnokset"
 
 #. translators: accessibility text
-#: settings/table-languages.php:132 settings/table-languages.php:151
 #: modules/wizard/view-wizard-step-languages.php:76
 #: modules/wizard/view-wizard-step-languages.php:91
 #: modules/wizard/view-wizard-step-home-page.php:77
 #: modules/wizard/view-wizard-step-home-page.php:92
 #: modules/wizard/view-wizard-step-home-page.php:124
+#: settings/table-languages.php:133 settings/table-languages.php:152
 msgid "Default language"
 msgstr "Oletuskieli"
 
@@ -2038,13 +2035,13 @@ msgstr "Nimi kuinka se esiintyy sivustollasi (esimerkiksi: Englanti)."
 msgid "You can choose a language in the list or directly edit it below."
 msgstr "Voit valita kielen listalta tai muokata sitä suoraan alla."
 
-#: include/widget-languages.php:51 settings/view-tab-lang.php:53
+#: include/widget-languages.php:57 settings/view-tab-lang.php:53
 msgid "Choose a language"
 msgstr "Valitse kieli"
 
-#: settings/view-tab-lang.php:32 settings/view-tab-lang.php:175
 #: modules/wizard/view-wizard-step-languages.php:55
 #: modules/wizard/view-wizard-step-languages.php:59
+#: settings/view-tab-lang.php:32 settings/view-tab-lang.php:175
 msgid "Add new language"
 msgstr "Lisää uusi kieli"
 
@@ -2057,61 +2054,61 @@ msgstr "Muokkaa kieltä"
 msgid "Polylang is provided with an extensive %1$sdocumentation%2$s (in English). It includes information on how to set up your multilingual site and use it on a daily basis; FAQs, and documentation for developers to adapt their plugins and themes."
 msgstr "Polylangin mukana toimitetaan kattava %1$sdokumentaatio%2$s (vain englanniksi). Se kertoo kuinka perustat monikielisen sivuston ja käytät sitä päivittäisessä käytössä, vastaa usein kysyttyihin kysymyksiin, sekä tarjoaa kehittäjädokumentaation lisäosien ja teemojen sovittamiseksi."
 
-#: settings/table-string.php:335
+#: settings/table-string.php:364
 msgid "Filter"
 msgstr "Suodata"
 
-#: settings/table-string.php:322
+#: settings/table-string.php:351
 msgid "View all groups"
 msgstr "Näytä kaikki ryhmät"
 
-#: settings/table-string.php:134 admin/view-translations-media.php:13
 #: admin/view-translations-term.php:14 admin/view-translations-term.php:21
-#: admin/view-translations-post.php:12
+#: admin/view-translations-post.php:12 admin/view-translations-media.php:13
+#: settings/table-string.php:160
 msgid "Translations"
 msgstr "Käännökset"
 
-#: settings/table-string.php:133
+#: settings/table-string.php:159
 msgid "Group"
 msgstr "Ryhmä"
 
-#: settings/table-string.php:132
+#: settings/table-string.php:158
 msgid "Name"
 msgstr "Nimi"
 
-#: settings/table-string.php:131
+#: settings/table-string.php:157
 msgid "String"
 msgstr "Merkkijono"
 
-#: settings/table-languages.php:154
+#: settings/table-languages.php:155
 msgid "Posts"
 msgstr "Artikkelit"
 
-#: settings/table-languages.php:153 settings/view-tab-lang.php:127
+#: settings/table-languages.php:154 settings/view-tab-lang.php:127
 msgid "Flag"
 msgstr "Lippu"
 
-#: settings/table-languages.php:152 settings/view-tab-lang.php:147
+#: settings/table-languages.php:153 settings/view-tab-lang.php:147
 msgid "Order"
 msgstr "Järjestys"
 
-#: settings/table-languages.php:150
+#: settings/table-languages.php:151
 msgid "Code"
 msgstr "Koodi"
 
-#: settings/table-languages.php:149 settings/view-tab-lang.php:88
+#: settings/table-languages.php:150 settings/view-tab-lang.php:88
 msgid "Locale"
 msgstr "Lokaali"
 
-#: settings/table-languages.php:148 settings/view-tab-lang.php:77
+#: settings/table-languages.php:149 settings/view-tab-lang.php:77
 msgid "Full name"
 msgstr "Täydellinen nimi"
 
-#: settings/table-languages.php:213 settings/table-string.php:285
+#: settings/table-languages.php:214 settings/table-string.php:313
 msgid "Delete"
 msgstr "Poista"
 
-#: settings/table-languages.php:212
+#: settings/table-languages.php:213
 msgid "You are about to permanently delete this language. Are you sure?"
 msgstr "Olet aikaissa pysyvästi poistaa tämän kielen. Oletko varma?"
 
@@ -2159,15 +2156,15 @@ msgstr "Mukautetut kentät"
 msgid "Taxonomies"
 msgstr "Luokittelut"
 
-#: settings/settings-module.php:252 settings/settings-licenses.php:113
+#: settings/settings-module.php:258 settings/settings-licenses.php:113
 msgid "Settings saved."
 msgstr "Asetukset tallennettu."
 
-#: settings/table-string.php:386
+#: settings/table-string.php:417
 msgid "Translations updated."
 msgstr "Käännökset päivitetty."
 
-#: include/mo.php:21 settings/settings.php:144 admin/admin-base.php:79
+#: admin/admin-base.php:116 include/mo.php:21 settings/settings.php:146
 msgid "Strings translations"
 msgstr "Merkkijonojen käännökset"
 
@@ -2175,132 +2172,108 @@ msgstr "Merkkijonojen käännökset"
 msgid "About Polylang"
 msgstr "Tietoja Polylang:sta"
 
-#: settings/settings.php:191
+#: settings/settings.php:194
 msgid "The language was created, but the WordPress language file was not downloaded. Please install it manually."
 msgstr "Kieli luotiin, mutta WordPress-kielitiedostoa ei ladattu. Asenna se käsin."
 
-#: admin/admin-base.php:368 admin/admin-base.php:387
+#: admin/admin-base.php:431 admin/admin-base.php:450
 msgid "Filters content by language"
 msgstr "Suodata sisältöä kielen mukaan"
 
-#: admin/admin-base.php:359
+#: admin/admin-base.php:422
 msgid "Show all languages"
 msgstr "Näytä kaikki kielet"
 
-#: settings/settings-module.php:122 admin/admin-base.php:82 admin/admin.php:77
+#: admin/admin.php:104 admin/admin-base.php:119
+#: settings/settings-module.php:120
 msgid "Settings"
 msgstr "Asetukset"
 
-#: admin/admin-strings.php:63
+#: admin/admin-strings.php:70
 msgid "Widget text"
 msgstr "Vimpaimen teksti"
 
-#: admin/admin-strings.php:62
+#: admin/admin-strings.php:69
 msgid "Widget title"
 msgstr "Vimpaimen otsikko"
 
-#: admin/admin-strings.php:60
-msgid "Time Format"
-msgstr "Kellonajan muoto"
-
-#: admin/admin-strings.php:59
-msgid "Date Format"
-msgstr "Päiväyksen muoto"
-
-#: admin/admin-strings.php:58
-msgid "Tagline"
-msgstr "Kuvaus"
-
-#: admin/admin-strings.php:57
-msgid "Site Title"
-msgstr "Sivuston otsikko"
-
-#: install/upgrade.php:341 include/widget-languages.php:21
-#: include/nav-menu.php:48 admin/admin-nav-menu.php:47
+#: admin/admin-nav-menu.php:49 include/nav-menu.php:72
+#: include/widget-languages.php:21
 msgid "Language switcher"
 msgstr "Kielivalinta"
 
-#: modules/wizard/wizard.php:446 admin/admin-model.php:293
+#: modules/wizard/wizard.php:486 admin/admin-model.php:288
 msgid "The language must have a name"
 msgstr "Kielellä täytyy olla nimi"
 
-#: modules/wizard/wizard.php:445 admin/admin-model.php:286
+#: modules/wizard/wizard.php:485 admin/admin-model.php:281
 msgid "The language code must be unique"
 msgstr "Kielikoodin täytyy olla uniikki"
 
-#: modules/wizard/wizard.php:444 admin/admin-model.php:280
+#: modules/wizard/wizard.php:484 admin/admin-model.php:275
 msgid "The language code contains invalid characters"
 msgstr "Kielikoodi sisältää virhellisiä merkkejä"
 
-#: modules/wizard/wizard.php:443 admin/admin-model.php:275
+#: modules/wizard/wizard.php:483 admin/admin-model.php:270
 msgid "Enter a valid WordPress locale"
 msgstr "Syötä oikeanmuotoinen WordPress lokaali"
 
-#: settings/settings.php:221
+#: settings/settings.php:224
 msgid "Language updated."
 msgstr "Kieli päivitetty."
 
-#: settings/settings.php:206
+#: settings/settings.php:209
 msgid "Language deleted."
 msgstr "Kieli poistettu."
 
-#: settings/settings.php:184
+#: settings/settings.php:187
 msgid "Language added."
 msgstr "Kieli lisätty."
 
-#: modules/wizard/wizard.php:442 admin/admin-model.php:44
+#: modules/wizard/wizard.php:482 admin/admin-model.php:41
 msgid "Impossible to add the language."
 msgstr "Kielen lisääminen on mahdotonta."
 
-#: admin/admin-static-pages.php:157 admin/admin-static-pages.php:174
-msgid "The chosen static front page must be translated in all languages."
-msgstr "Valittu staattinen etusivu täytyy täytyy kääntää kaikille kielille."
-
-#: admin/admin-filters.php:171
-msgid "Upgrading language files&#8230;"
-msgstr "Päivitetään kielitiedostoja&#8230;"
-
-#: include/translated-post.php:112 admin/admin-filters.php:72
+#: include/translated-post.php:118 include/filters-widgets-options.php:50
 msgid "All languages"
 msgstr "Kaikki kielet"
 
-#: admin/admin-filters.php:86
+#: include/filters-widgets-options.php:64
 msgid "The widget is displayed for:"
 msgstr "Vimpain näytetään:"
 
-#: admin/admin-filters-term.php:471
+#: admin/admin-filters-term.php:521
 msgid "None"
 msgstr "Ei mitään"
 
-#: admin/admin-filters-term.php:104 admin/admin-filters-term.php:176
+#: admin/admin-filters-term.php:147 admin/admin-filters-term.php:220
 msgid "Sets the language"
 msgstr "Aseta kieli"
 
-#: settings/table-languages.php:206
+#: settings/table-languages.php:207
 msgid "Edit"
 msgstr "Muokkaa"
 
-#: admin/admin-classic-editor.php:215
+#: admin/admin-classic-editor.php:247
 msgid "(no parent)"
 msgstr "(päätaso)"
 
-#: include/nav-menu.php:47 include/translated-post.php:110
-#: settings/settings.php:126 modules/wizard/wizard.php:458
-#: modules/wizard/view-wizard-step-languages.php:29 admin/admin-base.php:75
-#: admin/admin-base.php:99 admin/admin-notices.php:92
-#: admin/admin-classic-editor.php:53 admin/admin-nav-menu.php:68
-#: admin/admin-nav-menu.php:71 admin/admin-nav-menu.php:102
+#: modules/wizard/view-wizard-step-languages.php:29
+#: modules/wizard/wizard.php:498 admin/admin-nav-menu.php:72
+#: admin/admin-nav-menu.php:75 admin/admin-nav-menu.php:108
+#: admin/admin-notices.php:110 admin/admin-classic-editor.php:75
+#: admin/admin-base.php:112 admin/admin-base.php:136 include/nav-menu.php:71
+#: include/translated-post.php:116 settings/settings.php:126
 msgid "Languages"
 msgstr "Kielet"
 
-#: include/translated-post.php:111
 #: modules/wizard/view-wizard-step-languages.php:67
-#: admin/admin-filters-term.php:102 admin/admin-filters-term.php:174
-#: admin/admin-filters-columns.php:210 admin/admin-classic-editor.php:103
-#: admin/admin-filters-media.php:59
+#: admin/admin-filters-term.php:145 admin/admin-filters-term.php:218
+#: admin/admin-filters-columns.php:234 admin/admin-filters-media.php:62
+#: admin/admin-classic-editor.php:127 include/translated-post.php:117
 msgid "Language"
 msgstr "Kieli"
 
-#: admin/admin-filters-columns.php:196
+#: admin/admin-filters-columns.php:220
 msgid "&mdash; No Change &mdash;"
 msgstr "&mdash; Ei muutoksia &mdash;"

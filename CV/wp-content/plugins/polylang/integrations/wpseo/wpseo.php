@@ -16,9 +16,9 @@ class PLL_WPSEO {
 	 * @since 1.6.4
 	 */
 	public function init() {
-		if ( PLL() instanceof PLL_Frontend ) {
-			add_filter( 'option_wpseo_titles', array( $this, 'wpseo_translate_titles' ) );
+		add_action( 'wp_loaded', array( $this, 'wpseo_translate_options' ) );
 
+		if ( PLL() instanceof PLL_Frontend ) {
 			// Filters sitemap queries to remove inactive language or to get
 			// one sitemap per language when using multiple domains or subdomains
 			// because WPSEO does not accept several domains or subdomains in one sitemap
@@ -47,8 +47,6 @@ class PLL_WPSEO {
 			add_filter( 'wpseo_frontend_presentation', array( $this, 'frontend_presentation' ) );
 			add_filter( 'wpseo_breadcrumb_indexables', array( $this, 'breadcrumb_indexables' ) );
 		} else {
-			add_action( 'admin_init', array( $this, 'wpseo_register_strings' ) );
-
 			// Primary category
 			add_filter( 'pll_copy_post_metas', array( $this, 'copy_post_metas' ) );
 			add_filter( 'pll_translate_post_meta', array( $this, 'translate_post_meta' ), 10, 3 );
@@ -56,74 +54,41 @@ class PLL_WPSEO {
 	}
 
 	/**
-	 * Registers strings for custom post types and custom taxonomies titles and meta descriptions
+	 * Registers custom post types and taxonomy titles for translation.
 	 *
-	 * @since 2.0
+	 * @since 2.9
 	 */
-	public function wpseo_register_strings() {
-		$options = get_option( 'wpseo_titles' );
+	public function wpseo_translate_options() {
+		$keys = array();
+
 		foreach ( get_post_types( array( 'public' => true, '_builtin' => false ) ) as $t ) {
 			if ( pll_is_translated_post_type( $t ) ) {
-				$this->_wpseo_register_strings( $options, array( 'title-' . $t, 'metadesc-' . $t ) );
+				$keys[] = 'title-' . $t;
+				$keys[] = 'metadesc-' . $t;
 			}
 		}
+
 		foreach ( get_post_types( array( 'has_archive' => true, '_builtin' => false ) ) as $t ) {
 			if ( pll_is_translated_post_type( $t ) ) {
-				$this->_wpseo_register_strings( $options, array( 'title-ptarchive-' . $t, 'metadesc-ptarchive-' . $t, 'bctitle-ptarchive-' . $t ) );
+				$keys[] = 'title-ptarchive-' . $t;
+				$keys[] = 'metadesc-ptarchive-' . $t;
+				$keys[] = 'bctitle-ptarchive-' . $t;
 			}
 		}
+
 		foreach ( get_taxonomies( array( 'public' => true, '_builtin' => false ) ) as $t ) {
 			if ( pll_is_translated_taxonomy( $t ) ) {
-				$this->_wpseo_register_strings( $options, array( 'title-tax-' . $t, 'metadesc-tax-' . $t ) );
+				$keys[] = 'title-tax-' . $t;
+				$keys[] = 'metadesc-tax-' . $t;
 			}
 		}
-	}
 
-	/**
-	 * Helper function to translate custom post types and custom taxonomies titles and meta descriptions
-	 *
-	 * @since 2.1.6
-	 *
-	 * @param array $options
-	 * @param array $titles
-	 * @return array
-	 */
-	protected function _wpseo_translate_titles( $options, $titles ) {
-		foreach ( $titles as $title ) {
-			if ( ! empty( $options[ $title ] ) ) {
-				$options[ $title ] = pll__( $options[ $title ] );
+		if ( ! empty( $keys ) ) {
+			if ( method_exists( 'WPSEO_Options', 'clear_cache' ) ) {
+				WPSEO_Options::clear_cache();
 			}
+			new PLL_Translate_Option( 'wpseo_titles', array_fill_keys( $keys, 1 ), array( 'context' => 'wordpress-seo' ) );
 		}
-		return $options;
-	}
-
-	/**
-	 * Translates strings for custom post types and custom taxonomies titles and meta descriptions
-	 *
-	 * @since 2.0
-	 *
-	 * @param array $options
-	 * @return array
-	 */
-	public function wpseo_translate_titles( $options ) {
-		if ( PLL() instanceof PLL_Frontend ) {
-			foreach ( get_post_types( array( 'public' => true, '_builtin' => false ) ) as $t ) {
-				if ( pll_is_translated_post_type( $t ) ) {
-					$options = $this->_wpseo_translate_titles( $options, array( 'title-' . $t, 'metadesc-' . $t ) );
-				}
-			}
-			foreach ( get_post_types( array( 'has_archive' => true, '_builtin' => false ) ) as $t ) {
-				if ( pll_is_translated_post_type( $t ) ) {
-					$options = $this->_wpseo_translate_titles( $options, array( 'title-ptarchive-' . $t, 'metadesc-ptarchive-' . $t, 'bctitle-ptarchive-' . $t ) );
-				}
-			}
-			foreach ( get_taxonomies( array( 'public' => true, '_builtin' => false ) ) as $t ) {
-				if ( pll_is_translated_taxonomy( $t ) ) {
-					$options = $this->_wpseo_translate_titles( $options, array( 'title-tax-' . $t, 'metadesc-tax-' . $t ) );
-				}
-			}
-		}
-		return $options;
 	}
 
 	/**
@@ -233,11 +198,11 @@ class PLL_WPSEO {
 	}
 
 	/**
-	 * Add filters before the sitemap is evaluated and outputed
+	 * Add filters before the sitemap is evaluated and outputed.
 	 *
 	 * @since 2.6
 	 *
-	 * @param object $query Instance of WP_Query being filtered.
+	 * @param WP_Query $query Instance of WP_Query being filtered.
 	 */
 	public function before_sitemap( $query ) {
 		$type = $query->get( 'sitemap' );
@@ -407,7 +372,7 @@ class PLL_WPSEO {
 			case 'home-page':
 				$presentation->model->permalink = pll_home_url();
 				$presentation->model->title = WPSEO_Options::get( 'title-home-wpseo' );
-				$presentation->model->description = WPSEO_Options::get( 'title-home-wpseo' );
+				$presentation->model->description = WPSEO_Options::get( 'metadesc-home-wpseo' );
 				break;
 
 			case 'post-type-archive':
@@ -423,8 +388,13 @@ class PLL_WPSEO {
 				break;
 
 			case 'system-page':
-				if ( '404' === $presentation->model->object_sub_type ) {
-					$presentation->model->title = WPSEO_Options::get( 'title-404-wpseo' );
+				switch ( $presentation->model->object_sub_type ) {
+					case '404':
+						$presentation->model->title = WPSEO_Options::get( 'title-404-wpseo' );
+						break;
+					case 'search-result':
+						$presentation->model->title = WPSEO_Options::get( 'title-search-wpseo' );
+						break;
 				}
 				break;
 		}
@@ -458,24 +428,6 @@ class PLL_WPSEO {
 		}
 
 		return $indexables;
-	}
-
-	/**
-	 * Helper function to register strings for custom post types and custom taxonomies titles and meta descriptions
-	 *
-	 * @since 2.1.6
-	 *
-	 * @param array $options
-	 * @param array $titles
-	 * @return array
-	 */
-	protected function _wpseo_register_strings( $options, $titles ) {
-		foreach ( $titles as $title ) {
-			if ( ! empty( $options[ $title ] ) ) {
-				pll_register_string( $title, $options[ $title ], 'wordpress-seo' );
-			}
-		}
-		return $options;
 	}
 
 	/**

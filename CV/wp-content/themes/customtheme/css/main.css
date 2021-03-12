@@ -43,6 +43,7 @@ header .top-bar li a:hover {
     padding: .25rem 1rem;
     color: rgb(56, 56, 56);
     text-decoration: none;
+    filter: brightness(50%);
 }
 
 header .top-bar li:first-child a {
@@ -59,7 +60,7 @@ header .top-bar li .sub-menu {
     z-index: 999;
     top: 100%;
     left: 0;
-    background: #fff;
+    background: rgb(206, 206, 206);;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
     margin: 0;
     padding: 0;
@@ -69,7 +70,7 @@ header .top-bar li .sub-menu {
 }
 
 header .top-bar li .sub-menu a {
-    color: red;
+    color: #fff;
     padding: .25rem;
     text-align: center;
     display: block;
@@ -78,7 +79,7 @@ header .top-bar li .sub-menu a {
 
 header .top-bar li .sub-menu a:hover {
     color: black;
-
+    filter: brightness(50%);
 }
 
 header .top-bar .menu-item-has-children:hover .sub-menu{

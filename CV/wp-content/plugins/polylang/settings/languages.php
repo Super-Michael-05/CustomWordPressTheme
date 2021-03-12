@@ -247,6 +247,13 @@ return array(
 		'w3c'      => 'de-DE',
 		'facebook' => 'de_DE',
 	),
+	'dsb' => array(
+		'code'     => 'dsb',
+		'locale'   => 'dsb',
+		'name'     => 'Dolnoserbšćina',
+		'dir'      => 'ltr',
+		'flag'     => 'de',
+	),
 	'dzo' => array(
 		'code'     => 'dz',
 		'locale'   => 'dzo',
@@ -349,6 +356,14 @@ return array(
 		'name'     => 'Español',
 		'dir'      => 'ltr',
 		'flag'     => 'cr',
+		'facebook' => 'es_LA',
+	),
+	'es_EC' => array(
+		'code'     => 'es',
+		'locale'   => 'es_EC',
+		'name'     => 'Español',
+		'dir'      => 'ltr',
+		'flag'     => 'ec',
 		'facebook' => 'es_LA',
 	),
 	'es_ES' => array(

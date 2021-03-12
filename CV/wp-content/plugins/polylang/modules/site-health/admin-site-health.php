@@ -6,7 +6,7 @@
 /**
  * Class PLL_Admin_Site_Health to add debug info in WP Site Health.
  *
- * @link https://make.wordpress.org/core/2019/04/25/site-health-check-in-5-2/
+ * @see https://make.wordpress.org/core/2019/04/25/site-health-check-in-5-2/ since WordPress 5.2
  *
  * @since 2.8
  */
@@ -53,7 +53,7 @@ class PLL_Admin_Site_Health {
 	 *
 	 * @since 2.8
 	 *
-	 * @return array List of option keys to ignore.
+	 * @return string[] List of option keys to ignore.
 	 */
 	protected function exclude_options_keys() {
 		return array(
@@ -67,7 +67,7 @@ class PLL_Admin_Site_Health {
 	 *
 	 * @since 2.8
 	 *
-	 * @return array List of language keys to ignore.
+	 * @return string[] List of language keys to ignore.
 	 */
 	protected function exclude_language_keys() {
 		return array(
@@ -218,7 +218,7 @@ class PLL_Admin_Site_Health {
 	 *
 	 * @since 2.8
 	 *
-	 * @param object $language Language object.
+	 * @param PLL_Language $language Language object.
 	 * @return string
 	 */
 	protected function get_flag( $language ) {
