@@ -15,6 +15,10 @@ function load_css()
     wp_register_style('cv', get_template_directory_uri() . '/css/cv.css', array(),
         false, 'all' );
     wp_enqueue_style('cv');
+
+    wp_register_style('imageviewer', get_template_directory_uri() . '/css/imageviewer.css', array(),
+        false, 'all' );
+    wp_enqueue_style('imageviewer');
 }
 add_action('wp_enqueue_scripts','load_css');
 

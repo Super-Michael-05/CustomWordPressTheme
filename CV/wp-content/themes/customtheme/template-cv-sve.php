@@ -283,23 +283,23 @@ Template Name: CV
                                 <div class="date">31.08.2020 - 04.09.2020</div>
                                 <div class="info">
                                     <p class="semi-bold">Praktisk arbetslivsorientering - PRAO</p> 
-                                    <p>Jag var en mobilutvecklare på Devatus Ab en vecka, jag använde programmeringsspråket Flutter. Ansvarspersonens (Sanna Lundström) kommentarer: \"Eleven visade sig att vara en duktig programmerare och gjorde sin uppgift bra.\"</p>
+                                    <p>Jag var en mobilutvecklare på Devatus Ab en vecka, jag använde programmeringsspråket Flutter. Ansvarspersonens (Sanna Lundström) kommentarer: "Eleven visade sig att vara en duktig programmerare och gjorde sin uppgift bra."</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="date">12.10.2018</div>
                                 <div class="info">
                                     <p class="semi-bold">Praktisk arbetslivsorientering - PRAO</p> 
-                                    <p>Jag var vaktmästare i Gesterbyn koulu mellan 9 och 11:30. Tömma skräpkorgarna, ta emot skolans post och vakta skolans korridorer var mina arbetsuppgifter. Min arbetsgivares(Kari Martiskainen) kommentarer: \"Kohtelias, kiinnostunut ja yhteistyö sujui hyvin. Kiitos!\", på svenska: Artig, intresserad och samarbetet for bra. Tack!"</p>
+                                    <p>Jag var vaktmästare i Gesterbyn koulu mellan 9 och 11:30. Tömma skräpkorgarna, ta emot skolans post och vakta skolans korridorer var mina arbetsuppgifter. Min arbetsgivares(Kari Martiskainen) kommentarer: "Kohtelias, kiinnostunut ja yhteistyö sujui hyvin. Kiitos!", på svenska: "Artig, intresserad och samarbetet for bra. Tack!"</p>
                                     <br>
-                                    <p>Jag var också en städerska i Gesterbyn koulu mellan 12 och 14:30. Städa klassrummen och korridorrarna var mina arbetsuppifter. Min arbetsgivares(Pom Pattamai Hinom) kommentarer: \"Positiivinen, haluaa oppia uusia asioita, kuuntelee tarkasti, ystävällinen ja reippaasti tekee töitä\", på svenska: Positiv, vill lära sig nya saker, lyssnar precist, vänlig och arbetar flitigt."</p>
+                                    <p>Jag var också en städerska i Gesterbyn koulu mellan 12 och 14:30. Städa klassrummen och korridorrarna var mina arbetsuppifter. Min arbetsgivares(Pom Pattamai Hinom) kommentarer: "Positiivinen, haluaa oppia uusia asioita, kuuntelee tarkasti, ystävällinen ja reippaasti tekee töitä", på svenska: "Positiv, vill lära sig nya saker, lyssnar precist, vänlig och arbetar flitigt."</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="date">29.05.2018</div> 
                                 <div class="info">
                                     <p class="semi-bold">Företagsbyn</p> 
-                                    <p>Jag var i Yrityskylä i Esbo. \"Företagsbyn är en finländsk lärandemiljö som belönats som världens bästa utbildningsinnovation. Vi erbjuder sjätte- och niondeklassister positiva erfarenheter av arbetsliv, ekonomi och samhälle. Det bästa är, att Företagsbyn grundar sig på läroplanen.\" Hålla ett öga på arbetarna, sköta om företagets ekonomi och hålla möten för arbetarna.</p>
+                                    <p>Jag var i Yrityskylä i Esbo. "Företagsbyn är en finländsk lärandemiljö som belönats som världens bästa utbildningsinnovation. Vi erbjuder sjätte- och niondeklassister positiva erfarenheter av arbetsliv, ekonomi och samhälle. Det bästa är, att Företagsbyn grundar sig på läroplanen." Mina arbetsuppgifter var att hålla ett öga på arbetarna, sköta om företagets ekonomi och hålla möten för arbetarna.</p>
                                 </div>
                             </li>
                         </ul>
@@ -313,7 +313,7 @@ Template Name: CV
                                 <div class="date">13.08.2020 - nutid</div> 
                                 <div class="info">
                                     <p class="semi-bold">Vasa Övningsskola (grundskola)</p> 
-                                    <p>Jag var ett år i Vasa i skola. Jag var vice ordförande i elevkårsstyrelsen.</p>
+                                    <p>Jag var vice ordförande i elevkårsstyrelsen.</p>
                                 </div>
                             </li>
                             <li>
@@ -327,7 +327,34 @@ Template Name: CV
                                 <div class="date">08.08.2012 - 22.12.2013</div>
                                 <div class="info">
                                     <p class="semi-bold">Martinlaakson koulu (grundskola)</p> 
-                                    <p>Jag började grundskolan i Martinlaakson koulu, jag gick där i skola i ett och ett halvt år och sen böt jag skola, 'Winellska skolan' var nya skolans namn.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="resume_item resume_position">
+                        <div class="title">
+                            <p class="bold">Förtroendeuppdrag</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="date">2020 - 2021</div> 
+                                <div class="info">
+                                    <p class="semi-bold">Elevkårsstyrelse</p> 
+                                    <p>Jag var vice ordförande i elevkårsstyrelsen i Vasa Övningsskolan.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date">2019 - 2020</div> 
+                                <div class="info">
+                                    <p class="semi-bold">Gröna gruppen</p> 
+                                    <p>Jag var i gröna gruppen i Winellska skolan. Gröna gruppen skapar lärande material om klimatet och hur man kan påverka klimatet.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date">2019 - 2020</div> 
+                                <div class="info">
+                                    <p class="semi-bold">Digielev</p> 
+                                    <p>Jag var digielev i Winellska skolan. Digielever hjälper lärare och andra elever i IT och teknik frågor.</p>
                                 </div>
                             </li>
                         </ul>

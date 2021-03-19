@@ -283,23 +283,23 @@ Template Name: Résumé
                                 <div class="date">08/31/2020 - 09/04/2020</div>
                                 <div class="info">
                                     <p class="semi-bold">Work practice program</p> 
-                                    <p>I was a mobile developer at Devatus Oy for a week, I used the programming language Flutter. The responsible persons (Sanna Lundström) comments: \"Eleven visade sig att vara en duktig programmerare och gjorde sin uppgift bra.\", in English: The student proved to be a good programmer and did his job well."</p>
+                                    <p>I was a mobile developer at Devatus Oy for a week, I used the programming language Flutter. The responsible persons (Sanna Lundström) comments: "Eleven visade sig att vara en duktig programmerare och gjorde sin uppgift bra.", in English: "The student proved to be a good programmer and did his job well."</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="date">10/12/2018</div>
                                 <div class="info">
                                     <p class="semi-bold">Work practice program</p> 
-                                    <p>I was a porter in Gesterbyn koulu from 9 AM to 11:30 AM. My work assignments were to empty the trashcans, receive the schools mail and guard the schools corridors. My employers(Kari Martiskainen) comments: \"Kohtelias, kiinnostunut ja yhteistyö sujui hyvin\", in English: Polite, interested and liaison went well. Thanks!"</p>
+                                    <p>I was a porter in Gesterbyn koulu from 9 AM to 11:30 AM. My work assignments were to empty the trashcans, receive the schools mail and guard the schools corridors. My employers(Kari Martiskainen) comments: "Kohtelias, kiinnostunut ja yhteistyö sujui hyvin", in English: "Polite, interested and liaison went well. Thanks!"</p>
                                     <br>
-                                    <p>I was also a janitor in Gesterbyn koulu from 12 PM to 2:30 PM. My work assignments were to clean the classrooms and corridors. My employers(Pom Pattamai Hinom) comments: \"Positiivinen, haluaa oppia uusia asioita, kuuntelee tarkasti, ystävällinen ja reippaasti tekee töitä\", in English: Positive, curious, listens closely, friendly and works assiduously."</p>
+                                    <p>I was also a janitor in Gesterbyn koulu from 12 PM to 2:30 PM. My work assignments were to clean the classrooms and corridors. My employers(Pom Pattamai Hinom) comments: "Positiivinen, haluaa oppia uusia asioita, kuuntelee tarkasti, ystävällinen ja reippaasti tekee töitä", in English: "Positive, curious, listens closely, friendly and works assiduously."</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="date">05/29/2018</div> 
                                 <div class="info">
                                     <p class="semi-bold">Yrityskylä</p> 
-                                    <p>I was in Yrityskylä in Espoo. \"Yrityskylä is a Finnish learning concept which has been recognised as the world’s best education innovation. Its story began in 2010. We offer school children in grades six and nine positive experiences of working life, the economy and society and encourage entrepreneurship. To top it all off, Yrityskylä is based on a curriculum.\" My work assignments were to keep an eye on the employees.</p>
+                                    <p>I was in Yrityskylä in Espoo. "Yrityskylä is a Finnish learning concept which has been recognised as the world’s best education innovation. Its story began in 2010. We offer school children in grades six and nine positive experiences of working life, the economy and society and encourage entrepreneurship. To top it all off, Yrityskylä is based on a curriculum." My work assignments were to keep an eye on the employees.</p>
                                 </div>
                             </li>
                         </ul>
@@ -313,7 +313,7 @@ Template Name: Résumé
                                 <div class="date">08/13/2020 - present</div> 
                                 <div class="info">
                                     <p class="semi-bold">Vasa Övningsskola (comprehensive school)</p> 
-                                    <p>I lived one year in Vaasa and went to a school in Vaasa. I was the vice-chairman in the students' union.</p>
+                                    <p>I was the vice-chairman in the students' union.</p>
                                 </div>
                             </li>
                             <li>
@@ -327,7 +327,34 @@ Template Name: Résumé
                                 <div class="date">08/08/2012 - 12/22/2013</div>
                                 <div class="info">
                                     <p class="semi-bold">Martinlaakson koulu (comprehensive school)</p> 
-                                    <p>I started comprehensive school in Martinlaakson koulu, I went to school one and a half year and then I changed school, 'Winellska skolan' was the new schools name.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="resume_item resume_position">
+                        <div class="title">
+                            <p class="bold">Positions of responsibility</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="date">2020 - 2021</div> 
+                                <div class="info">
+                                    <p class="semi-bold">Students' union</p> 
+                                    <p>I was the vice-chairman in the students' union in Vasa Övningsskola.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date">2019 - 2020</div> 
+                                <div class="info">
+                                    <p class="semi-bold">Green group</p> 
+                                    <p>I was in the green group in Winellska skolan. The green group creates learning material about the climate and how you can affect the climate.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date">2019 - 2020</div> 
+                                <div class="info">
+                                    <p class="semi-bold">Digital student</p> 
+                                    <p>I was a digital student in Winellska skolan. Digital students help teachers and other pupils in IT and technology questions.</p>
                                 </div>
                             </li>
                         </ul>

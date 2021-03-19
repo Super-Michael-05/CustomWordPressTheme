@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-08 11:50:07+0000\n"
+"PO-Revision-Date: 2021-03-16 17:24:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13221,11 +13221,6 @@ msgstr "Ota käyttöön kaikilla sivustoilla"
 msgid "Some database problems could not be repaired. Please copy-and-paste the following list of errors to the <a href=\"%s\">WordPress support forums</a> to get additional assistance."
 msgstr "Joitakin tietokantaongelmia ei voitu korjata. Kopioi ja liitä seuraava virhelista <a href=\"%s\">WordPress-tukifoorumeille</a> lisäavun saamiseksi."
 
-#. translators: Prefix for category permalinks.
-#: wp-admin/options-permalink.php:340
-msgid "Category base"
-msgstr "Kategorioiden peruskansio"
-
 #: wp-admin/options-writing.php:78
 msgid "Default Post Category"
 msgstr "Artikkeleiden oletuskategoria"
@@ -13451,6 +13446,11 @@ msgstr "WordPress osaa julkaista artikkeleita salaisesta POP3-postilaatikosta. K
 #: wp-admin/includes/revision.php:89
 msgid "Removed"
 msgstr "Poistettu"
+
+#. translators: Prefix for category permalinks.
+#: wp-admin/options-permalink.php:340
+msgid "Category base"
+msgstr "Kategorioiden peruskanta"
 
 #: wp-admin/includes/class-wp-list-table.php:488 wp-admin/edit.php:275
 msgid "Bulk actions"

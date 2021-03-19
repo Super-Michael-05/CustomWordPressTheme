@@ -6,8 +6,116 @@ Template Name: Ansioluettelo
 
 <?php get_header();?>
 <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+<script>
+    function openModal() {
+    document.getElementById("myModal").style.display = "block";
+    }
+
+    function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+</script>
 
 <section class="page-wrap-id-25">
+    <!-- Image Viewer -->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+                <img src="img1_wide.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+                <img src="img2_wide.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+                <img src="img3_wide.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+                <img src="img4_wide.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+                <img src="img4_wide.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+                <img src="img4_wide.jpg" style="width:100%">
+            </div>
+            
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail image controls -->
+            <div class="column">
+                <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Devatus">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Winellska">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Corptown">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="GreenGroup">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img4.jpg" onclick="currentSlide(5)" alt="DigitalStudent">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img4.jpg" onclick="currentSlide(6)" alt="aXion">
+            </div>
+        </div>
+    </div>
     <div class="container">
         <h1><?php the_title();?></h1>
         <div class="page-id-25">
@@ -271,7 +379,7 @@ Template Name: Ansioluettelo
                         <div class="title">
                             <p class="bold">Työkokemus</p>
                         </div>
-                        <ul id="line_1">
+                        <ul>
                             <li>
                                 <div class="date">09.09.2020 - nykyhetki</div>
                                 <div class="info">
@@ -282,8 +390,8 @@ Template Name: Ansioluettelo
                             <li>
                                 <div class="date">31.08.2020 - 04.09.2020</div>
                                 <div class="info">
-                                    <p class="semi-bold">Työelämään tutustuminen - TET</p> 
-                                    <p>Olin mobiilikehittäjä Devatus Oy:lla yhden viikon, käytin ohjelmointikieltä Flutter. Vastuuhenkilön (Sanna Lundström) kommentit: "Eleven visade sig att vara en duktig programmerare och gjorde sin uppgift bra.", suomeksi: Opiskelija osoittautui hyväksi ohjelmoijaksi ja teki työnsä hyvin.</p>
+                                    <p class="semi-bold">Työelämään tutustuminen - TET <i class="far fa-image" onclick="openModal();currentSlide(1)" class="hover-shadow"></i></p> 
+                                    <p>Olin mobiilikehittäjä Devatus Oy:lla yhden viikon, käytin ohjelmointikieltä Flutter. Vastuuhenkilön (Sanna Lundström) kommentit: "Eleven visade sig att vara en duktig programmerare och gjorde sin uppgift bra.", suomeksi: "Opiskelija osoittautui hyväksi ohjelmoijaksi ja teki työnsä hyvin."</p>
                                 </div>
                             </li>
                             <li>
@@ -313,7 +421,7 @@ Template Name: Ansioluettelo
                                 <div class="date">13.08.2020 - nykyhetki</div> 
                                 <div class="info">
                                     <p class="semi-bold">Vasa Övningsskola (peruskoulu)</p> 
-                                    <p>Olin vuoden Vaasassa koulussa. Olin varapuheenjohtaja oppilaskunnassa.</p>
+                                    <p>Olin varapuheenjohtaja oppilaskunnassa.</p>
                                 </div>
                             </li>
                             <li>
@@ -326,8 +434,35 @@ Template Name: Ansioluettelo
                             <li>
                                 <div class="date">08.08.2012 - 22.12.2013</div>
                                 <div class="info">
-                                    <p class="semi-bold">Martinlaakson koulu (peruskoulu)</p> 
-                                    <p>Aloitin peruskoulun Martinlaakson koulussa, kävin siellä noin yksi ja puoli vuotta ja sitten vaihdoin koulua, 'Winellska skolan' oli uuden koulun nimi.</p>
+                                    <p class="semi-bold">Martinlaakson koulu (peruskoulu)</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="resume_item resume_position">
+                        <div class="title">
+                            <p class="bold">Luottamustehtävät</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="date">2020 - 2021</div> 
+                                <div class="info">
+                                    <p class="semi-bold">Oppilaskunta</p> 
+                                    <p>Olin varapuheenjohtaja oppilaskunnassa Vasa Övningsskola:ssa.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date">2019 - 2020</div> 
+                                <div class="info">
+                                    <p class="semi-bold">Vihreä ryhmä</p> 
+                                    <p>Olin vihreässä ryhmässä Winellska skola:ssa. Vihreä ryhmä luovat opettavaa materiaalia ilmastosta ja miten vaikuttaa ilmastoon.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date">2019 - 2020</div> 
+                                <div class="info">
+                                    <p class="semi-bold">Digioppilas</p> 
+                                    <p>Olin digioppilas Winellska skola:ssa. Digioppilat auttavat opettajia ja toisia oppilaita IT ja teknika kysymyksissä.</p>
                                 </div>
                             </li>
                         </ul>

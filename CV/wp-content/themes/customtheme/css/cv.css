@@ -169,14 +169,16 @@
 
 .page-id-25 .resume .resume_right .resume_work ul,
 .page-id-25 .resume .resume_right .resume_education ul,
-.page-id-25 .resume .resume_right .resume_course ul {
+.page-id-25 .resume .resume_right .resume_course ul,
+.page-id-25 .resume .resume_right .resume_position ul {
   padding-left: 40px;
   overflow: hidden;
 }
 
 .page-id-25 .resume .resume_right .resume_work ul li:before,
 .page-id-25 .resume .resume_right .resume_education ul li:before,
-.page-id-25 .resume .resume_right .resume_course ul li:before  {
+.page-id-25 .resume .resume_right .resume_course ul li:before,
+.page-id-25 .resume .resume_right .resume_position ul li:before  {
     content: "";
     position: absolute;
     width: 12px;
@@ -189,7 +191,8 @@
 
 .page-id-25 .resume .resume_right .resume_work ul li:after,
 .page-id-25 .resume .resume_right .resume_education ul li:after,
-.page-id-25 .resume .resume_right .resume_course ul li:after {
+.page-id-25 .resume .resume_right .resume_course ul li:after,
+.page-id-25 .resume .resume_right .resume_position ul li:after {
     content: "";
     position: absolute;
     top: -349px;
