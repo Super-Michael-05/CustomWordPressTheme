@@ -1,105 +1,99 @@
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .column {
-float: left;
-width: 25%;
+    width: 20%;
 }
 
 .modal {
-display: none;
-position: fixed;
-z-index: 1;
-padding-top: 100px;
-left: 0;
-top: 0;
-width: 100%;
-height: 100%;
-overflow: auto;
-background-color: black;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    background-color: #1b262c;
 }
 
 .modal-content {
-position: relative;
-background-color: #fefefe;
-margin: auto;
-padding: 0;
-width: 90%;
-max-width: 1200px;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    max-width: 52%;
 }
 
 .close {
-color: white;
-position: absolute;
-top: 10px;
-right: 25px;
-font-size: 35px;
-font-weight: bold;
+    color: white;
+    position: relative;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-color: #999;
-text-decoration: none;
-cursor: pointer;
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .mySlides {
-display: none;
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
 }
 
 .prev,
 .next {
-cursor: pointer;
-position: absolute;
-top: 50%;
-width: auto;
-padding: 16px;
-margin-top: -50px;
-color: white;
-font-weight: bold;
-font-size: 20px;
-transition: 0.6s ease;
-border-radius: 0 3px 3px 0;
-user-select: none;
--webkit-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .next {
-right: 0;
-border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 .prev:hover,
 .next:hover {
-background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-.numbertext {
-color: #f2f2f2;
-font-size: 12px;
-padding: 8px 12px;
-position: absolute;
-top: 0;
+img {
+    margin-bottom: -4px;
+    width: 50%;
 }
 
 .caption-container {
-text-align: center;
-background-color: black;
-padding: 2px 16px;
-color: white;
+    text-align: center;
+    background-color: #0bb5f4;
+    padding: 2px 16px;
 }
 
-img.demo {
-opacity: 0.6;
+.demo {
+    opacity: 0.6;
 }
 
 .active,
 .demo:hover {
-opacity: 1;
-}
-
-img.hover-shadow {
-transition: 0.3s;
+    opacity: 1;
 }
 
 .hover-shadow:hover {
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
 }

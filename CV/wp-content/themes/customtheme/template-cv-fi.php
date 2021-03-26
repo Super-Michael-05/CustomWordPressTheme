@@ -52,33 +52,28 @@ Template Name: Ansioluettelo
         <div class="modal-content">
 
             <div class="mySlides">
-            <div class="numbertext">1 / 6</div>
-                <img src="img1_wide.jpg" style="width:100%">
+                <div class="numbertext">1 / 5</div>
+                <img src="http://cv.test/wp-content/uploads/2021/03/devatus-scaled.jpg">
             </div>
 
             <div class="mySlides">
-            <div class="numbertext">2 / 6</div>
-                <img src="img2_wide.jpg" style="width:100%">
+                <div class="numbertext">2 / 5</div>
+                <img src="http://cv.test/wp-content/uploads/2021/03/winellska-scaled.jpg">
             </div>
 
             <div class="mySlides">
-            <div class="numbertext">3 / 6</div>
-                <img src="img3_wide.jpg" style="width:100%">
+                <div class="numbertext">3 / 5</div>
+                <img src="http://cv.test/wp-content/uploads/2021/03/corptown-scaled.jpg">
             </div>
 
             <div class="mySlides">
-            <div class="numbertext">4 / 6</div>
-                <img src="img4_wide.jpg" style="width:100%">
+                <div class="numbertext">4 / 5</div>
+                <img src="http://cv.test/wp-content/uploads/2021/03/digitalstudent-scaled.jpg">
             </div>
 
             <div class="mySlides">
-            <div class="numbertext">5 / 6</div>
-                <img src="img4_wide.jpg" style="width:100%">
-            </div>
-
-            <div class="mySlides">
-            <div class="numbertext">6 / 6</div>
-                <img src="img4_wide.jpg" style="width:100%">
+                <div class="numbertext">5 / 5</div>
+                <img src="http://cv.test/wp-content/uploads/2021/03/axion-scaled.jpg">
             </div>
             
             <!-- Next/previous controls -->
@@ -91,28 +86,26 @@ Template Name: Ansioluettelo
             </div>
 
             <!-- Thumbnail image controls -->
-            <div class="column">
-                <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Devatus">
-            </div>
+            <div class="row">
+                <div class="column">
+                    <img class="demo" src="http://cv.test/wp-content/uploads/2021/03/devatus-scaled.jpg" onclick="currentSlide(1)">
+                </div>
 
-            <div class="column">
-                <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Winellska">
-            </div>
+                <div class="column">
+                    <img class="demo" src="http://cv.test/wp-content/uploads/2021/03/winellska-scaled.jpg" onclick="currentSlide(2)">
+                </div>
 
-            <div class="column">
-                <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Corptown">
-            </div>
+                <div class="column">
+                    <img class="demo" src="http://cv.test/wp-content/uploads/2021/03/corptown-scaled.jpg" onclick="currentSlide(3)">
+                </div>
 
-            <div class="column">
-                <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="GreenGroup">
-            </div>
+                <div class="column">
+                    <img class="demo" src="http://cv.test/wp-content/uploads/2021/03/digitalstudent-scaled.jpg" onclick="currentSlide(4)">
+                </div>
 
-            <div class="column">
-                <img class="demo" src="img4.jpg" onclick="currentSlide(5)" alt="DigitalStudent">
-            </div>
-
-            <div class="column">
-                <img class="demo" src="img4.jpg" onclick="currentSlide(6)" alt="aXion">
+                <div class="column">
+                    <img class="demo" src="http://cv.test/wp-content/uploads/2021/03/axion-scaled.jpg" onclick="currentSlide(5)">
+                </div>
             </div>
         </div>
     </div>
@@ -390,7 +383,7 @@ Template Name: Ansioluettelo
                             <li>
                                 <div class="date">31.08.2020 - 04.09.2020</div>
                                 <div class="info">
-                                    <p class="semi-bold">Työelämään tutustuminen - TET <i class="far fa-image" onclick="openModal();currentSlide(1)" class="hover-shadow"></i></p> 
+                                    <p class="semi-bold">Työelämään tutustuminen - TET <i class="far fa-image hover-shadow" onclick="openModal();currentSlide(1)"></i></p> 
                                     <p>Olin mobiilikehittäjä Devatus Oy:lla yhden viikon, käytin ohjelmointikieltä Flutter. Vastuuhenkilön (Sanna Lundström) kommentit: "Eleven visade sig att vara en duktig programmerare och gjorde sin uppgift bra.", suomeksi: "Opiskelija osoittautui hyväksi ohjelmoijaksi ja teki työnsä hyvin."</p>
                                 </div>
                             </li>

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-13 09:25:22+0000\n"
+"PO-Revision-Date: 2021-03-24 02:07:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -6040,8 +6040,8 @@ msgstr[1] "%s mediafiler flyttade till papperskorgen."
 #: wp-admin/upload.php:327
 msgid "%s media file permanently deleted."
 msgid_plural "%s media files permanently deleted."
-msgstr[0] "%s mediafil raderad permanent."
-msgstr[1] "%s mediafiler raderade permanent."
+msgstr[0] "%s mediafil permanent borttagen."
+msgstr[1] "%s mediafiler permanent borttagna."
 
 #. translators: %s: Number of media files.
 #: wp-admin/upload.php:315
@@ -12442,7 +12442,7 @@ msgstr "Mediafilen har lagts i papperskorgen."
 
 #: wp-admin/upload.php:324 wp-admin/upload.php:359
 msgid "Media file permanently deleted."
-msgstr "Mediafil raderad permanent."
+msgstr "Mediafilen permanent borttagen."
 
 #: wp-admin/edit-tags.php:137 wp-admin/options.php:78
 msgid "Sorry, you are not allowed to delete these items."
