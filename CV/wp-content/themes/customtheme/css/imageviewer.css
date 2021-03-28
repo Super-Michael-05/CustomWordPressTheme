@@ -43,6 +43,10 @@
     display: none;
 }
 
+.mySlides img {
+    width: 25rem;
+}
+
 .cursor {
     cursor: pointer;
 }
@@ -76,7 +80,6 @@
 
 img {
     margin-bottom: -4px;
-    width: 50%;
 }
 
 .caption-container {
@@ -87,6 +90,7 @@ img {
 
 .demo {
     opacity: 0.6;
+    width: 10rem;
 }
 
 .active,
